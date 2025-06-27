@@ -1,0 +1,17 @@
+# Falls eine requirements.txt Datei in Ihrem Repository vorhanden ist:
+pip install -r requirements.txt
+
+# Andernfalls erstellen Sie eine:
+cat > requirements.txt << EOF
+yfinance==0.2.63
+pandas==2.3.0
+numpy==1.24.3
+schedule==1.2.0
+python-telegram-bot==21.0
+scikit-learn==1.7.0
+requests==2.31.0
+psutil==5.9.5
+EOF
+
+# Dann installieren:
+pip install -r requirements.txt
