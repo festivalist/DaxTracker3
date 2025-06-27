@@ -1,0 +1,46 @@
+2025-06-27 21:19:29,117 - BatchCollector - INFO - Collecting 1-minute intraday data
+2025-06-27 21:19:29,117 - BatchCollector - INFO - Collecting data for 5 symbols in 1 batches
+2025-06-27 21:19:29,117 - BatchCollector - INFO - Processing batch 1/1 (5 symbols)
+2025-06-27 21:19:29,117 - BatchCollector - INFO - Collecting data for batch of 5 symbols (interval=1m, period=1d)
+2025-06-27 21:19:29,594 - BatchCollector - INFO - Download completed in 0.48 seconds
+2025-06-27 21:19:29,698 - BatchCollector - INFO - Stored 1910 records for 5 symbols
+2025-06-27 21:19:29,698 - BatchCollector - INFO - Collection completed: 5/5 symbols with data
+2025-06-27 21:19:29,698 - BatchCollector - INFO - Collecting daily data
+2025-06-27 21:19:29,699 - BatchCollector - INFO - Collecting data for 5 symbols in 1 batches
+2025-06-27 21:19:29,699 - BatchCollector - INFO - Processing batch 1/1 (5 symbols)
+2025-06-27 21:19:29,699 - BatchCollector - INFO - Collecting data for batch of 5 symbols (interval=1d, period=1mo)
+2025-06-27 21:19:30,350 - BatchCollector - INFO - Download completed in 0.23 seconds
+2025-06-27 21:19:30,371 - BatchCollector - INFO - Stored 116 records for 5 symbols
+2025-06-27 21:19:30,371 - BatchCollector - INFO - Collection completed: 5/5 symbols with data
+2025-06-27 21:19:30,371 - BatchCollector - INFO - Collecting news data
+2025-06-27 21:19:31,118 - BatchCollector - INFO - Fetching news for AAPL
+2025-06-27 21:19:31,357 - BatchCollector - ERROR - Error fetching news for AAPL: table news_data has no column named timestamp
+2025-06-27 21:19:33,006 - BatchCollector - INFO - Fetching news for MSFT
+2025-06-27 21:19:33,182 - BatchCollector - ERROR - Error fetching news for MSFT: table news_data has no column named timestamp
+2025-06-27 21:19:36,514 - BatchCollector - INFO - Fetching news for AMZN
+2025-06-27 21:19:36,726 - BatchCollector - ERROR - Error fetching news for AMZN: table news_data has no column named timestamp
+2025-06-27 21:19:36,726 - BatchCollector - INFO - News collection completed for 0/3 symbols
+2025-06-27 21:51:01,614 - BatchCollector - INFO - Collecting data for 11 symbols in 1 batches
+2025-06-27 21:51:01,615 - BatchCollector - INFO - Processing batch 1/1 (11 symbols)
+2025-06-27 21:51:01,615 - BatchCollector - INFO - Collecting data for batch of 11 symbols (interval=1h, period=1d)
+2025-06-27 21:51:02,348 - BatchCollector - INFO - Download completed in 0.73 seconds
+2025-06-27 21:51:02,378 - BatchCollector - INFO - Stored 79 records for 11 symbols
+2025-06-27 21:51:02,378 - BatchCollector - INFO - Collection completed: 11/11 symbols with data
+2025-06-27 21:54:25,734 - BatchCollector - INFO - Collecting data for 121 symbols in 4 batches
+2025-06-27 21:54:25,734 - BatchCollector - INFO - Processing batch 1/4 (40 symbols)
+2025-06-27 21:54:25,734 - BatchCollector - INFO - Collecting data for batch of 40 symbols (interval=1h, period=1d)
+2025-06-27 21:54:26,722 - BatchCollector - INFO - Download completed in 0.99 seconds
+2025-06-27 21:54:26,785 - BatchCollector - INFO - Stored 289 records for 39 symbols
+2025-06-27 21:54:29,822 - BatchCollector - INFO - Processing batch 2/4 (40 symbols)
+2025-06-27 21:54:29,822 - BatchCollector - INFO - Collecting data for batch of 40 symbols (interval=1h, period=1d)
+2025-06-27 21:54:30,662 - BatchCollector - INFO - Download completed in 0.84 seconds
+2025-06-27 21:54:30,725 - BatchCollector - INFO - Stored 285 records for 39 symbols
+2025-06-27 21:54:34,038 - BatchCollector - INFO - Processing batch 3/4 (40 symbols)
+2025-06-27 21:54:34,039 - BatchCollector - INFO - Collecting data for batch of 40 symbols (interval=1h, period=1d)
+2025-06-27 21:54:35,025 - BatchCollector - INFO - Download completed in 0.99 seconds
+2025-06-27 21:54:35,091 - BatchCollector - INFO - Stored 308 records for 40 symbols
+2025-06-27 21:54:37,795 - BatchCollector - INFO - Processing batch 4/4 (1 symbols)
+2025-06-27 21:54:37,796 - BatchCollector - INFO - Collecting data for batch of 1 symbols (interval=1h, period=1d)
+2025-06-27 21:54:37,920 - BatchCollector - INFO - Download completed in 0.12 seconds
+2025-06-27 21:54:37,928 - BatchCollector - INFO - Stored 7 records for 1 symbols
+2025-06-27 21:54:37,929 - BatchCollector - INFO - Collection completed: 119/121 symbols with data

@@ -15,6 +15,11 @@ logging.basicConfig(
 )
 logger = logging.getLogger('MLProcessor')
 
+# Add console handler for terminal output
+console_handler = logging.StreamHandler()
+console_handler.setFormatter(logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s'))
+logger.addHandler(console_handler)
+
 class InterruptibleMLProcessor:
     def __init__(self, db_path, checkpoint_dir='checkpoints'):
         """

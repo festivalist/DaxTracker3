@@ -1,0 +1,17 @@
+{
+    "quiet_hours": {
+        "enabled": true,
+        "start": "22:00",
+        "end": "07:30"
+    },
+    "weekends": {
+        "enabled": true,
+        "collect_for_monday": true
+    },    "rate_limit": {
+        "enabled": true,
+        "min_interval_minutes": 30,
+        "max_per_hour": 10
+    },
+    "minimum_confidence": 0.7,
+    "last_notification": null
+}

@@ -1,6 +1,8 @@
 import schedule
 import time
 import logging
+import sys
+import argparse
 from technical_analyzer import TechnicalAnalyzer
 
 # Logger konfigurieren
@@ -10,6 +12,11 @@ logging.basicConfig(
     filename='technical_scheduler.log'
 )
 logger = logging.getLogger('TechnicalScheduler')
+
+# Add console handler for terminal output
+console_handler = logging.StreamHandler()
+console_handler.setFormatter(logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s'))
+logger.addHandler(console_handler)
 
 # Symbole für die Analyse definieren
 STOCK_SYMBOLS = ['AAPL', 'MSFT', 'AMZN', 'GOOGL', 'META', 'TSLA', 'NVDA']
@@ -21,11 +28,19 @@ analyzer = TechnicalAnalyzer('market_data.db')
 def run_analysis():
     """Führt die technische Analyse für alle Symbole durch"""
     logger.info("Starting technical analysis job")
-    for symbol in STOCK_SYMBOLS + INDEX_SYMBOLS:
+    
+    # If symbol is specified in command line arguments, only analyze that symbol
+    if len(sys.argv) > 2 and sys.argv[1] == '--symbol':
+        symbols = [sys.argv[2]]
+    else:
+        symbols = STOCK_SYMBOLS + INDEX_SYMBOLS
+    
+    for symbol in symbols:
+        # Analyze and save (saving is now handled inside analyze_symbol method)
         results = analyzer.analyze_symbol(symbol)
-        if results:
-            analyzer.save_analysis_results(results)
+        logger.info(f"Analysis results for {symbol}: {results}")
         time.sleep(1)  # Kurze Pause zwischen Analysen
+        
     logger.info("Technical analysis job completed")
 
 # Zeitplan für die Analyse definieren

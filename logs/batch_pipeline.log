@@ -1,0 +1,560 @@
+2025-06-27 21:51:01,608 - BatchPipeline - INFO - Running enhanced pipeline with key symbols, interval=1h, period=1d
+2025-06-27 21:51:01,608 - BatchPipeline - INFO - Starting enhanced batch pipeline with mode=key, interval=1h, period=1d
+2025-06-27 21:51:01,613 - BatchPipeline - INFO - Running in 'key' mode with 11 key symbols
+2025-06-27 21:51:01,613 - BatchPipeline - INFO - STEP 1: Batch Data Collection
+2025-06-27 21:51:01,613 - BatchPipeline - INFO - Starting batch collection for 11 symbols
+2025-06-27 21:51:02,378 - BatchPipeline - INFO - Batch collection successful: 11/11 symbols
+2025-06-27 21:51:02,382 - BatchPipeline - INFO - Found 11 symbols with data in database
+2025-06-27 21:51:02,382 - BatchPipeline - INFO - STEP 2: Technical Analysis
+2025-06-27 21:51:02,382 - BatchPipeline - INFO - Running technical analysis for 11 symbols
+2025-06-27 21:51:02,383 - BatchPipeline - INFO - Running technical analysis for AAPL
+2025-06-27 21:51:02,932 - BatchPipeline - INFO - Technical analysis completed for AAPL
+2025-06-27 21:51:02,932 - BatchPipeline - INFO - Running technical analysis for AMZN
+2025-06-27 21:51:03,487 - BatchPipeline - INFO - Technical analysis completed for AMZN
+2025-06-27 21:51:03,487 - BatchPipeline - INFO - Running technical analysis for GOOGL
+2025-06-27 21:51:04,077 - BatchPipeline - INFO - Technical analysis completed for GOOGL
+2025-06-27 21:51:04,077 - BatchPipeline - INFO - Running technical analysis for META
+2025-06-27 21:51:04,603 - BatchPipeline - INFO - Technical analysis completed for META
+2025-06-27 21:51:04,603 - BatchPipeline - INFO - Running technical analysis for MSFT
+2025-06-27 21:51:05,117 - BatchPipeline - INFO - Technical analysis completed for MSFT
+2025-06-27 21:51:05,117 - BatchPipeline - INFO - Running technical analysis for NVDA
+2025-06-27 21:51:05,673 - BatchPipeline - INFO - Technical analysis completed for NVDA
+2025-06-27 21:51:05,673 - BatchPipeline - INFO - Running technical analysis for TSLA
+2025-06-27 21:51:06,203 - BatchPipeline - INFO - Technical analysis completed for TSLA
+2025-06-27 21:51:06,203 - BatchPipeline - INFO - Running technical analysis for ^GDAXI
+2025-06-27 21:51:06,726 - BatchPipeline - INFO - Technical analysis completed for ^GDAXI
+2025-06-27 21:51:06,726 - BatchPipeline - INFO - Running technical analysis for ^GSPC
+2025-06-27 21:51:07,236 - BatchPipeline - INFO - Technical analysis completed for ^GSPC
+2025-06-27 21:51:07,236 - BatchPipeline - INFO - Running technical analysis for ^DJI
+2025-06-27 21:51:07,755 - BatchPipeline - INFO - Technical analysis completed for ^DJI
+2025-06-27 21:51:07,755 - BatchPipeline - INFO - Running technical analysis for ^IXIC
+2025-06-27 21:51:08,268 - BatchPipeline - INFO - Technical analysis completed for ^IXIC
+2025-06-27 21:51:08,268 - BatchPipeline - INFO - Technical analysis completed for 11/11 symbols
+2025-06-27 21:51:08,268 - BatchPipeline - INFO - STEP 3: Signal Generation
+2025-06-27 21:51:08,268 - BatchPipeline - INFO - Running signal generation for 11 symbols
+2025-06-27 21:51:08,269 - BatchPipeline - INFO - Generating signals for AAPL
+2025-06-27 21:51:23,626 - BatchPipeline - INFO - Signal generation completed for AAPL
+2025-06-27 21:51:23,626 - BatchPipeline - INFO - Generating signals for AMZN
+2025-06-27 21:51:27,957 - BatchPipeline - INFO - Signal generation completed for AMZN
+2025-06-27 21:51:27,957 - BatchPipeline - INFO - Generating signals for GOOGL
+2025-06-27 21:51:32,262 - BatchPipeline - INFO - Signal generation completed for GOOGL
+2025-06-27 21:51:32,262 - BatchPipeline - INFO - Generating signals for META
+2025-06-27 21:51:36,590 - BatchPipeline - INFO - Signal generation completed for META
+2025-06-27 21:51:36,590 - BatchPipeline - INFO - Generating signals for MSFT
+2025-06-27 21:51:40,912 - BatchPipeline - INFO - Signal generation completed for MSFT
+2025-06-27 21:51:40,912 - BatchPipeline - INFO - Generating signals for NVDA
+2025-06-27 21:51:45,249 - BatchPipeline - INFO - Signal generation completed for NVDA
+2025-06-27 21:51:45,249 - BatchPipeline - INFO - Generating signals for TSLA
+2025-06-27 21:51:49,587 - BatchPipeline - INFO - Signal generation completed for TSLA
+2025-06-27 21:51:49,587 - BatchPipeline - INFO - Generating signals for ^GDAXI
+2025-06-27 21:51:53,916 - BatchPipeline - INFO - Signal generation completed for ^GDAXI
+2025-06-27 21:51:53,917 - BatchPipeline - INFO - Generating signals for ^GSPC
+2025-06-27 21:51:58,389 - BatchPipeline - INFO - Signal generation completed for ^GSPC
+2025-06-27 21:51:58,390 - BatchPipeline - INFO - Generating signals for ^DJI
+2025-06-27 21:52:02,930 - BatchPipeline - INFO - Signal generation completed for ^DJI
+2025-06-27 21:52:02,930 - BatchPipeline - INFO - Generating signals for ^IXIC
+2025-06-27 21:52:07,271 - BatchPipeline - INFO - Signal generation completed for ^IXIC
+2025-06-27 21:52:07,271 - BatchPipeline - INFO - Signal generation completed for 11/11 symbols
+2025-06-27 21:52:07,271 - BatchPipeline - INFO - Enhanced pipeline execution completed in 65.66 seconds
+2025-06-27 21:52:07,271 - BatchPipeline - INFO - Summary: 11/11 symbols collected
+2025-06-27 21:52:07,272 - BatchPipeline - INFO - Processing completed for 11 symbols
+2025-06-27 21:54:25,729 - BatchPipeline - INFO - Running enhanced pipeline with all symbols, interval=1h, period=1d
+2025-06-27 21:54:25,729 - BatchPipeline - INFO - Starting enhanced batch pipeline with mode=all, interval=1h, period=1d
+2025-06-27 21:54:25,732 - BatchPipeline - INFO - Running in 'all' mode with 121 symbols
+2025-06-27 21:54:25,732 - BatchPipeline - INFO - STEP 1: Batch Data Collection
+2025-06-27 21:54:25,733 - BatchPipeline - INFO - Starting batch collection for 121 symbols
+2025-06-27 21:54:37,929 - BatchPipeline - INFO - Batch collection successful: 119/121 symbols
+2025-06-27 21:54:37,933 - BatchPipeline - INFO - Found 121 symbols with data in database
+2025-06-27 21:54:37,933 - BatchPipeline - INFO - STEP 2: Technical Analysis
+2025-06-27 21:54:37,933 - BatchPipeline - INFO - Running technical analysis for 121 symbols
+2025-06-27 21:54:37,933 - BatchPipeline - INFO - Running technical analysis for AAPL
+2025-06-27 21:54:38,459 - BatchPipeline - INFO - Technical analysis completed for AAPL
+2025-06-27 21:54:38,459 - BatchPipeline - INFO - Running technical analysis for RHM.DE
+2025-06-27 21:54:38,969 - BatchPipeline - INFO - Technical analysis completed for RHM.DE
+2025-06-27 21:54:38,969 - BatchPipeline - INFO - Running technical analysis for AAL
+2025-06-27 21:54:39,478 - BatchPipeline - INFO - Technical analysis completed for AAL
+2025-06-27 21:54:39,478 - BatchPipeline - INFO - Running technical analysis for ABBV
+2025-06-27 21:54:39,988 - BatchPipeline - INFO - Technical analysis completed for ABBV
+2025-06-27 21:54:39,988 - BatchPipeline - INFO - Running technical analysis for ABNB
+2025-06-27 21:54:40,499 - BatchPipeline - INFO - Technical analysis completed for ABNB
+2025-06-27 21:54:40,500 - BatchPipeline - INFO - Running technical analysis for ABT
+2025-06-27 21:54:41,006 - BatchPipeline - INFO - Technical analysis completed for ABT
+2025-06-27 21:54:41,006 - BatchPipeline - INFO - Running technical analysis for ACN
+2025-06-27 21:54:41,517 - BatchPipeline - INFO - Technical analysis completed for ACN
+2025-06-27 21:54:41,517 - BatchPipeline - INFO - Running technical analysis for ADBE
+2025-06-27 21:54:42,023 - BatchPipeline - INFO - Technical analysis completed for ADBE
+2025-06-27 21:54:42,023 - BatchPipeline - INFO - Running technical analysis for AIR
+2025-06-27 21:54:42,533 - BatchPipeline - INFO - Technical analysis completed for AIR
+2025-06-27 21:54:42,534 - BatchPipeline - INFO - Running technical analysis for ALK
+2025-06-27 21:54:43,043 - BatchPipeline - INFO - Technical analysis completed for ALK
+2025-06-27 21:54:43,043 - BatchPipeline - INFO - Running technical analysis for ALV
+2025-06-27 21:54:43,560 - BatchPipeline - INFO - Technical analysis completed for ALV
+2025-06-27 21:54:43,561 - BatchPipeline - INFO - Running technical analysis for AMAT
+2025-06-27 21:54:44,073 - BatchPipeline - INFO - Technical analysis completed for AMAT
+2025-06-27 21:54:44,073 - BatchPipeline - INFO - Running technical analysis for AMD
+2025-06-27 21:54:44,588 - BatchPipeline - INFO - Technical analysis completed for AMD
+2025-06-27 21:54:44,588 - BatchPipeline - INFO - Running technical analysis for AMGN
+2025-06-27 21:54:45,099 - BatchPipeline - INFO - Technical analysis completed for AMGN
+2025-06-27 21:54:45,099 - BatchPipeline - INFO - Running technical analysis for AMZN
+2025-06-27 21:54:45,609 - BatchPipeline - INFO - Technical analysis completed for AMZN
+2025-06-27 21:54:45,609 - BatchPipeline - INFO - Running technical analysis for AVGO
+2025-06-27 21:54:46,121 - BatchPipeline - INFO - Technical analysis completed for AVGO
+2025-06-27 21:54:46,121 - BatchPipeline - INFO - Running technical analysis for BAC
+2025-06-27 21:54:46,633 - BatchPipeline - INFO - Technical analysis completed for BAC
+2025-06-27 21:54:46,634 - BatchPipeline - INFO - Running technical analysis for BLK
+2025-06-27 21:54:47,148 - BatchPipeline - INFO - Technical analysis completed for BLK
+2025-06-27 21:54:47,148 - BatchPipeline - INFO - Running technical analysis for BMY
+2025-06-27 21:54:47,660 - BatchPipeline - INFO - Technical analysis completed for BMY
+2025-06-27 21:54:47,660 - BatchPipeline - INFO - Running technical analysis for BNR
+2025-06-27 21:54:48,171 - BatchPipeline - INFO - Technical analysis completed for BNR
+2025-06-27 21:54:48,171 - BatchPipeline - INFO - Running technical analysis for BRK-B
+2025-06-27 21:54:48,681 - BatchPipeline - INFO - Technical analysis completed for BRK-B
+2025-06-27 21:54:48,682 - BatchPipeline - INFO - Running technical analysis for C
+2025-06-27 21:54:49,189 - BatchPipeline - INFO - Technical analysis completed for C
+2025-06-27 21:54:49,190 - BatchPipeline - INFO - Running technical analysis for CAT
+2025-06-27 21:54:49,699 - BatchPipeline - INFO - Technical analysis completed for CAT
+2025-06-27 21:54:49,699 - BatchPipeline - INFO - Running technical analysis for CCL
+2025-06-27 21:54:50,211 - BatchPipeline - INFO - Technical analysis completed for CCL
+2025-06-27 21:54:50,211 - BatchPipeline - INFO - Running technical analysis for CMCSA
+2025-06-27 21:54:50,724 - BatchPipeline - INFO - Technical analysis completed for CMCSA
+2025-06-27 21:54:50,724 - BatchPipeline - INFO - Running technical analysis for CON
+2025-06-27 21:54:51,247 - BatchPipeline - INFO - Technical analysis completed for CON
+2025-06-27 21:54:51,247 - BatchPipeline - INFO - Running technical analysis for COST
+2025-06-27 21:54:51,753 - BatchPipeline - INFO - Technical analysis completed for COST
+2025-06-27 21:54:51,754 - BatchPipeline - INFO - Running technical analysis for CRM
+2025-06-27 21:54:52,263 - BatchPipeline - INFO - Technical analysis completed for CRM
+2025-06-27 21:54:52,263 - BatchPipeline - INFO - Running technical analysis for CSCO
+2025-06-27 21:54:52,770 - BatchPipeline - INFO - Technical analysis completed for CSCO
+2025-06-27 21:54:52,770 - BatchPipeline - INFO - Running technical analysis for CVX
+2025-06-27 21:54:53,280 - BatchPipeline - INFO - Technical analysis completed for CVX
+2025-06-27 21:54:53,280 - BatchPipeline - INFO - Running technical analysis for DAL
+2025-06-27 21:54:53,790 - BatchPipeline - INFO - Technical analysis completed for DAL
+2025-06-27 21:54:53,790 - BatchPipeline - INFO - Running technical analysis for DE
+2025-06-27 21:54:54,295 - BatchPipeline - INFO - Technical analysis completed for DE
+2025-06-27 21:54:54,296 - BatchPipeline - INFO - Running technical analysis for DIS
+2025-06-27 21:54:54,811 - BatchPipeline - INFO - Technical analysis completed for DIS
+2025-06-27 21:54:54,812 - BatchPipeline - INFO - Running technical analysis for DTE
+2025-06-27 21:54:55,323 - BatchPipeline - INFO - Technical analysis completed for DTE
+2025-06-27 21:54:55,323 - BatchPipeline - INFO - Running technical analysis for DTG
+2025-06-27 21:54:55,832 - BatchPipeline - INFO - Technical analysis completed for DTG
+2025-06-27 21:54:55,833 - BatchPipeline - INFO - Running technical analysis for ENR
+2025-06-27 21:54:56,343 - BatchPipeline - INFO - Technical analysis completed for ENR
+2025-06-27 21:54:56,343 - BatchPipeline - INFO - Running technical analysis for F
+2025-06-27 21:54:56,852 - BatchPipeline - INFO - Technical analysis completed for F
+2025-06-27 21:54:56,852 - BatchPipeline - INFO - Running technical analysis for GILD
+2025-06-27 21:54:57,361 - BatchPipeline - INFO - Technical analysis completed for GILD
+2025-06-27 21:54:57,361 - BatchPipeline - INFO - Running technical analysis for GM
+2025-06-27 21:54:57,885 - BatchPipeline - INFO - Technical analysis completed for GM
+2025-06-27 21:54:57,885 - BatchPipeline - INFO - Running technical analysis for GOOG
+2025-06-27 21:54:58,436 - BatchPipeline - INFO - Technical analysis completed for GOOG
+2025-06-27 21:54:58,436 - BatchPipeline - INFO - Running technical analysis for GOOGL
+2025-06-27 21:54:59,011 - BatchPipeline - INFO - Technical analysis completed for GOOGL
+2025-06-27 21:54:59,011 - BatchPipeline - INFO - Running technical analysis for GS
+2025-06-27 21:54:59,567 - BatchPipeline - INFO - Technical analysis completed for GS
+2025-06-27 21:54:59,567 - BatchPipeline - INFO - Running technical analysis for HAL
+2025-06-27 21:55:00,087 - BatchPipeline - INFO - Technical analysis completed for HAL
+2025-06-27 21:55:00,088 - BatchPipeline - INFO - Running technical analysis for HD
+2025-06-27 21:55:00,631 - BatchPipeline - INFO - Technical analysis completed for HD
+2025-06-27 21:55:00,631 - BatchPipeline - INFO - Running technical analysis for HEI
+2025-06-27 21:55:01,186 - BatchPipeline - INFO - Technical analysis completed for HEI
+2025-06-27 21:55:01,187 - BatchPipeline - INFO - Running technical analysis for HON
+2025-06-27 21:55:01,718 - BatchPipeline - INFO - Technical analysis completed for HON
+2025-06-27 21:55:01,718 - BatchPipeline - INFO - Running technical analysis for IBM
+2025-06-27 21:55:02,228 - BatchPipeline - INFO - Technical analysis completed for IBM
+2025-06-27 21:55:02,228 - BatchPipeline - INFO - Running technical analysis for INTC
+2025-06-27 21:55:02,734 - BatchPipeline - INFO - Technical analysis completed for INTC
+2025-06-27 21:55:02,734 - BatchPipeline - INFO - Running technical analysis for INTU
+2025-06-27 21:55:03,241 - BatchPipeline - INFO - Technical analysis completed for INTU
+2025-06-27 21:55:03,241 - BatchPipeline - INFO - Running technical analysis for ISRG
+2025-06-27 21:55:03,747 - BatchPipeline - INFO - Technical analysis completed for ISRG
+2025-06-27 21:55:03,748 - BatchPipeline - INFO - Running technical analysis for JNJ
+2025-06-27 21:55:04,257 - BatchPipeline - INFO - Technical analysis completed for JNJ
+2025-06-27 21:55:04,257 - BatchPipeline - INFO - Running technical analysis for JPM
+2025-06-27 21:55:04,768 - BatchPipeline - INFO - Technical analysis completed for JPM
+2025-06-27 21:55:04,769 - BatchPipeline - INFO - Running technical analysis for KO
+2025-06-27 21:55:05,278 - BatchPipeline - INFO - Technical analysis completed for KO
+2025-06-27 21:55:05,278 - BatchPipeline - INFO - Running technical analysis for LLY
+2025-06-27 21:55:05,789 - BatchPipeline - INFO - Technical analysis completed for LLY
+2025-06-27 21:55:05,789 - BatchPipeline - INFO - Running technical analysis for LMT
+2025-06-27 21:55:06,313 - BatchPipeline - INFO - Technical analysis completed for LMT
+2025-06-27 21:55:06,313 - BatchPipeline - INFO - Running technical analysis for LOW
+2025-06-27 21:55:06,820 - BatchPipeline - INFO - Technical analysis completed for LOW
+2025-06-27 21:55:06,820 - BatchPipeline - INFO - Running technical analysis for MA
+2025-06-27 21:55:07,330 - BatchPipeline - INFO - Technical analysis completed for MA
+2025-06-27 21:55:07,330 - BatchPipeline - INFO - Running technical analysis for MBG
+2025-06-27 21:55:07,838 - BatchPipeline - INFO - Technical analysis completed for MBG
+2025-06-27 21:55:07,838 - BatchPipeline - INFO - Running technical analysis for MCD
+2025-06-27 21:55:08,343 - BatchPipeline - INFO - Technical analysis completed for MCD
+2025-06-27 21:55:08,344 - BatchPipeline - INFO - Running technical analysis for MDT
+2025-06-27 21:55:08,853 - BatchPipeline - INFO - Technical analysis completed for MDT
+2025-06-27 21:55:08,854 - BatchPipeline - INFO - Running technical analysis for META
+2025-06-27 21:55:09,362 - BatchPipeline - INFO - Technical analysis completed for META
+2025-06-27 21:55:09,362 - BatchPipeline - INFO - Running technical analysis for MMM
+2025-06-27 21:55:09,873 - BatchPipeline - INFO - Technical analysis completed for MMM
+2025-06-27 21:55:09,874 - BatchPipeline - INFO - Running technical analysis for MRK
+2025-06-27 21:55:10,386 - BatchPipeline - INFO - Technical analysis completed for MRK
+2025-06-27 21:55:10,386 - BatchPipeline - INFO - Running technical analysis for MRNA
+2025-06-27 21:55:10,904 - BatchPipeline - INFO - Technical analysis completed for MRNA
+2025-06-27 21:55:10,904 - BatchPipeline - INFO - Running technical analysis for MS
+2025-06-27 21:55:11,437 - BatchPipeline - INFO - Technical analysis completed for MS
+2025-06-27 21:55:11,437 - BatchPipeline - INFO - Running technical analysis for MSFT
+2025-06-27 21:55:11,952 - BatchPipeline - INFO - Technical analysis completed for MSFT
+2025-06-27 21:55:11,952 - BatchPipeline - INFO - Running technical analysis for MTX
+2025-06-27 21:55:12,465 - BatchPipeline - INFO - Technical analysis completed for MTX
+2025-06-27 21:55:12,465 - BatchPipeline - INFO - Running technical analysis for NCLH
+2025-06-27 21:55:12,978 - BatchPipeline - INFO - Technical analysis completed for NCLH
+2025-06-27 21:55:12,978 - BatchPipeline - INFO - Running technical analysis for NKE
+2025-06-27 21:55:13,484 - BatchPipeline - INFO - Technical analysis completed for NKE
+2025-06-27 21:55:13,484 - BatchPipeline - INFO - Running technical analysis for NVDA
+2025-06-27 21:55:14,004 - BatchPipeline - INFO - Technical analysis completed for NVDA
+2025-06-27 21:55:14,004 - BatchPipeline - INFO - Running technical analysis for ORCL
+2025-06-27 21:55:14,526 - BatchPipeline - INFO - Technical analysis completed for ORCL
+2025-06-27 21:55:14,526 - BatchPipeline - INFO - Running technical analysis for PEP
+2025-06-27 21:55:15,039 - BatchPipeline - INFO - Technical analysis completed for PEP
+2025-06-27 21:55:15,039 - BatchPipeline - INFO - Running technical analysis for PFE
+2025-06-27 21:55:15,557 - BatchPipeline - INFO - Technical analysis completed for PFE
+2025-06-27 21:55:15,557 - BatchPipeline - INFO - Running technical analysis for PG
+2025-06-27 21:55:16,112 - BatchPipeline - INFO - Technical analysis completed for PG
+2025-06-27 21:55:16,113 - BatchPipeline - INFO - Running technical analysis for PM
+2025-06-27 21:55:16,670 - BatchPipeline - INFO - Technical analysis completed for PM
+2025-06-27 21:55:16,671 - BatchPipeline - INFO - Running technical analysis for PYPL
+2025-06-27 21:55:17,278 - BatchPipeline - INFO - Technical analysis completed for PYPL
+2025-06-27 21:55:17,278 - BatchPipeline - INFO - Running technical analysis for QCOM
+2025-06-27 21:55:17,810 - BatchPipeline - INFO - Technical analysis completed for QCOM
+2025-06-27 21:55:17,811 - BatchPipeline - INFO - Running technical analysis for RCL
+2025-06-27 21:55:18,328 - BatchPipeline - INFO - Technical analysis completed for RCL
+2025-06-27 21:55:18,328 - BatchPipeline - INFO - Running technical analysis for SAP
+2025-06-27 21:55:18,893 - BatchPipeline - INFO - Technical analysis completed for SAP
+2025-06-27 21:55:18,893 - BatchPipeline - INFO - Running technical analysis for SBUX
+2025-06-27 21:55:19,429 - BatchPipeline - INFO - Technical analysis completed for SBUX
+2025-06-27 21:55:19,429 - BatchPipeline - INFO - Running technical analysis for TMO
+2025-06-27 21:55:19,957 - BatchPipeline - INFO - Technical analysis completed for TMO
+2025-06-27 21:55:19,958 - BatchPipeline - INFO - Running technical analysis for TMUS
+2025-06-27 21:55:20,471 - BatchPipeline - INFO - Technical analysis completed for TMUS
+2025-06-27 21:55:20,471 - BatchPipeline - INFO - Running technical analysis for TSLA
+2025-06-27 21:55:20,980 - BatchPipeline - INFO - Technical analysis completed for TSLA
+2025-06-27 21:55:20,981 - BatchPipeline - INFO - Running technical analysis for TXN
+2025-06-27 21:55:21,500 - BatchPipeline - INFO - Technical analysis completed for TXN
+2025-06-27 21:55:21,501 - BatchPipeline - INFO - Running technical analysis for UAL
+2025-06-27 21:55:22,007 - BatchPipeline - INFO - Technical analysis completed for UAL
+2025-06-27 21:55:22,007 - BatchPipeline - INFO - Running technical analysis for UBER
+2025-06-27 21:55:22,520 - BatchPipeline - INFO - Technical analysis completed for UBER
+2025-06-27 21:55:22,521 - BatchPipeline - INFO - Running technical analysis for UNH
+2025-06-27 21:55:23,027 - BatchPipeline - INFO - Technical analysis completed for UNH
+2025-06-27 21:55:23,028 - BatchPipeline - INFO - Running technical analysis for UPS
+2025-06-27 21:55:23,554 - BatchPipeline - INFO - Technical analysis completed for UPS
+2025-06-27 21:55:23,555 - BatchPipeline - INFO - Running technical analysis for V
+2025-06-27 21:55:24,076 - BatchPipeline - INFO - Technical analysis completed for V
+2025-06-27 21:55:24,076 - BatchPipeline - INFO - Running technical analysis for VZ
+2025-06-27 21:55:24,602 - BatchPipeline - INFO - Technical analysis completed for VZ
+2025-06-27 21:55:24,602 - BatchPipeline - INFO - Running technical analysis for WMT
+2025-06-27 21:55:25,136 - BatchPipeline - INFO - Technical analysis completed for WMT
+2025-06-27 21:55:25,136 - BatchPipeline - INFO - Running technical analysis for XOM
+2025-06-27 21:55:25,676 - BatchPipeline - INFO - Technical analysis completed for XOM
+2025-06-27 21:55:25,676 - BatchPipeline - INFO - Running technical analysis for ^GDAXI
+2025-06-27 21:55:26,229 - BatchPipeline - INFO - Technical analysis completed for ^GDAXI
+2025-06-27 21:55:26,229 - BatchPipeline - INFO - Running technical analysis for ^GSPC
+2025-06-27 21:55:26,751 - BatchPipeline - INFO - Technical analysis completed for ^GSPC
+2025-06-27 21:55:26,751 - BatchPipeline - INFO - Running technical analysis for 0N08.IL
+2025-06-27 21:55:27,265 - BatchPipeline - INFO - Technical analysis completed for 0N08.IL
+2025-06-27 21:55:27,266 - BatchPipeline - INFO - Running technical analysis for ADS.DE
+2025-06-27 21:55:27,815 - BatchPipeline - INFO - Technical analysis completed for ADS.DE
+2025-06-27 21:55:27,816 - BatchPipeline - INFO - Running technical analysis for BAS.DE
+2025-06-27 21:55:28,327 - BatchPipeline - INFO - Technical analysis completed for BAS.DE
+2025-06-27 21:55:28,327 - BatchPipeline - INFO - Running technical analysis for BAYN.DE
+2025-06-27 21:55:28,836 - BatchPipeline - INFO - Technical analysis completed for BAYN.DE
+2025-06-27 21:55:28,836 - BatchPipeline - INFO - Running technical analysis for BEI.DE
+2025-06-27 21:55:29,347 - BatchPipeline - INFO - Technical analysis completed for BEI.DE
+2025-06-27 21:55:29,347 - BatchPipeline - INFO - Running technical analysis for BMW.DE
+2025-06-27 21:55:29,855 - BatchPipeline - INFO - Technical analysis completed for BMW.DE
+2025-06-27 21:55:29,855 - BatchPipeline - INFO - Running technical analysis for CBK.DE
+2025-06-27 21:55:30,365 - BatchPipeline - INFO - Technical analysis completed for CBK.DE
+2025-06-27 21:55:30,365 - BatchPipeline - INFO - Running technical analysis for DB1.DE
+2025-06-27 21:55:30,876 - BatchPipeline - INFO - Technical analysis completed for DB1.DE
+2025-06-27 21:55:30,876 - BatchPipeline - INFO - Running technical analysis for DBK.DE
+2025-06-27 21:55:31,386 - BatchPipeline - INFO - Technical analysis completed for DBK.DE
+2025-06-27 21:55:31,386 - BatchPipeline - INFO - Running technical analysis for EOAN.DE
+2025-06-27 21:55:31,893 - BatchPipeline - INFO - Technical analysis completed for EOAN.DE
+2025-06-27 21:55:31,893 - BatchPipeline - INFO - Running technical analysis for FME.DE
+2025-06-27 21:55:32,402 - BatchPipeline - INFO - Technical analysis completed for FME.DE
+2025-06-27 21:55:32,403 - BatchPipeline - INFO - Running technical analysis for FRE.DE
+2025-06-27 21:55:32,915 - BatchPipeline - INFO - Technical analysis completed for FRE.DE
+2025-06-27 21:55:32,915 - BatchPipeline - INFO - Running technical analysis for HEN3.DE
+2025-06-27 21:55:33,426 - BatchPipeline - INFO - Technical analysis completed for HEN3.DE
+2025-06-27 21:55:33,426 - BatchPipeline - INFO - Running technical analysis for HNR1.DE
+2025-06-27 21:55:33,962 - BatchPipeline - INFO - Technical analysis completed for HNR1.DE
+2025-06-27 21:55:33,962 - BatchPipeline - INFO - Running technical analysis for IFX.DE
+2025-06-27 21:55:34,479 - BatchPipeline - INFO - Technical analysis completed for IFX.DE
+2025-06-27 21:55:34,479 - BatchPipeline - INFO - Running technical analysis for MUV2.DE
+2025-06-27 21:55:34,994 - BatchPipeline - INFO - Technical analysis completed for MUV2.DE
+2025-06-27 21:55:34,994 - BatchPipeline - INFO - Running technical analysis for P911.DE
+2025-06-27 21:55:35,507 - BatchPipeline - INFO - Technical analysis completed for P911.DE
+2025-06-27 21:55:35,508 - BatchPipeline - INFO - Running technical analysis for PAH3.DE
+2025-06-27 21:55:36,016 - BatchPipeline - INFO - Technical analysis completed for PAH3.DE
+2025-06-27 21:55:36,016 - BatchPipeline - INFO - Running technical analysis for QIA.DE
+2025-06-27 21:55:36,534 - BatchPipeline - INFO - Technical analysis completed for QIA.DE
+2025-06-27 21:55:36,534 - BatchPipeline - INFO - Running technical analysis for RWE.DE
+2025-06-27 21:55:37,038 - BatchPipeline - INFO - Technical analysis completed for RWE.DE
+2025-06-27 21:55:37,039 - BatchPipeline - INFO - Running technical analysis for SHL.DE
+2025-06-27 21:55:37,549 - BatchPipeline - INFO - Technical analysis completed for SHL.DE
+2025-06-27 21:55:37,549 - BatchPipeline - INFO - Running technical analysis for SIE.DE
+2025-06-27 21:55:38,055 - BatchPipeline - INFO - Technical analysis completed for SIE.DE
+2025-06-27 21:55:38,055 - BatchPipeline - INFO - Running technical analysis for SRT3.DE
+2025-06-27 21:55:38,563 - BatchPipeline - INFO - Technical analysis completed for SRT3.DE
+2025-06-27 21:55:38,564 - BatchPipeline - INFO - Running technical analysis for SY1.DE
+2025-06-27 21:55:39,072 - BatchPipeline - INFO - Technical analysis completed for SY1.DE
+2025-06-27 21:55:39,072 - BatchPipeline - INFO - Running technical analysis for VNA.DE
+2025-06-27 21:55:39,581 - BatchPipeline - INFO - Technical analysis completed for VNA.DE
+2025-06-27 21:55:39,581 - BatchPipeline - INFO - Running technical analysis for VOW3.DE
+2025-06-27 21:55:40,091 - BatchPipeline - INFO - Technical analysis completed for VOW3.DE
+2025-06-27 21:55:40,091 - BatchPipeline - INFO - Running technical analysis for ZAL.DE
+2025-06-27 21:55:40,598 - BatchPipeline - INFO - Technical analysis completed for ZAL.DE
+2025-06-27 21:55:40,599 - BatchPipeline - INFO - Technical analysis completed for 121/121 symbols
+2025-06-27 21:55:40,599 - BatchPipeline - INFO - STEP 3: Signal Generation
+2025-06-27 21:55:40,599 - BatchPipeline - INFO - Running signal generation for 121 symbols
+2025-06-27 21:55:40,599 - BatchPipeline - INFO - Generating signals for AAPL
+2025-06-27 21:55:44,972 - BatchPipeline - INFO - Signal generation completed for AAPL
+2025-06-27 21:55:44,973 - BatchPipeline - INFO - Generating signals for RHM.DE
+2025-06-27 21:55:49,302 - BatchPipeline - INFO - Signal generation completed for RHM.DE
+2025-06-27 21:55:49,303 - BatchPipeline - INFO - Generating signals for AAL
+2025-06-27 21:55:53,634 - BatchPipeline - INFO - Signal generation completed for AAL
+2025-06-27 21:55:53,634 - BatchPipeline - INFO - Generating signals for ABBV
+2025-06-27 21:55:58,044 - BatchPipeline - INFO - Signal generation completed for ABBV
+2025-06-27 21:55:58,044 - BatchPipeline - INFO - Generating signals for ABNB
+2025-06-27 21:56:02,919 - BatchPipeline - INFO - Signal generation completed for ABNB
+2025-06-27 21:56:02,919 - BatchPipeline - INFO - Generating signals for ABT
+2025-06-27 21:56:07,432 - BatchPipeline - INFO - Signal generation completed for ABT
+2025-06-27 21:56:07,432 - BatchPipeline - INFO - Generating signals for ACN
+2025-06-27 21:56:11,889 - BatchPipeline - INFO - Signal generation completed for ACN
+2025-06-27 21:56:11,889 - BatchPipeline - INFO - Generating signals for ADBE
+2025-06-27 21:56:16,344 - BatchPipeline - INFO - Signal generation completed for ADBE
+2025-06-27 21:56:16,344 - BatchPipeline - INFO - Generating signals for AIR
+2025-06-27 21:56:20,738 - BatchPipeline - INFO - Signal generation completed for AIR
+2025-06-27 21:56:20,738 - BatchPipeline - INFO - Generating signals for ALK
+2025-06-27 21:56:25,109 - BatchPipeline - INFO - Signal generation completed for ALK
+2025-06-27 21:56:25,110 - BatchPipeline - INFO - Generating signals for ALV
+2025-06-27 21:56:29,488 - BatchPipeline - INFO - Signal generation completed for ALV
+2025-06-27 21:56:29,489 - BatchPipeline - INFO - Generating signals for AMAT
+2025-06-27 21:56:33,976 - BatchPipeline - INFO - Signal generation completed for AMAT
+2025-06-27 21:56:33,976 - BatchPipeline - INFO - Generating signals for AMD
+2025-06-27 21:56:38,761 - BatchPipeline - INFO - Signal generation completed for AMD
+2025-06-27 21:56:38,761 - BatchPipeline - INFO - Generating signals for AMGN
+2025-06-27 21:56:43,526 - BatchPipeline - INFO - Signal generation completed for AMGN
+2025-06-27 21:56:43,526 - BatchPipeline - INFO - Generating signals for AMZN
+2025-06-27 21:56:48,077 - BatchPipeline - INFO - Signal generation completed for AMZN
+2025-06-27 21:56:48,077 - BatchPipeline - INFO - Generating signals for AVGO
+2025-06-27 21:56:52,637 - BatchPipeline - INFO - Signal generation completed for AVGO
+2025-06-27 21:56:52,637 - BatchPipeline - INFO - Generating signals for BAC
+2025-06-27 21:56:57,173 - BatchPipeline - INFO - Signal generation completed for BAC
+2025-06-27 21:56:57,173 - BatchPipeline - INFO - Generating signals for BLK
+2025-06-27 21:57:01,967 - BatchPipeline - INFO - Signal generation completed for BLK
+2025-06-27 21:57:01,968 - BatchPipeline - INFO - Generating signals for BMY
+2025-06-27 21:57:06,488 - BatchPipeline - INFO - Signal generation completed for BMY
+2025-06-27 21:57:06,488 - BatchPipeline - INFO - Generating signals for BNR
+2025-06-27 21:57:10,938 - BatchPipeline - INFO - Signal generation completed for BNR
+2025-06-27 21:57:10,938 - BatchPipeline - INFO - Generating signals for BRK-B
+2025-06-27 21:57:15,469 - BatchPipeline - INFO - Signal generation completed for BRK-B
+2025-06-27 21:57:15,469 - BatchPipeline - INFO - Generating signals for C
+2025-06-27 21:57:19,966 - BatchPipeline - INFO - Signal generation completed for C
+2025-06-27 21:57:19,966 - BatchPipeline - INFO - Generating signals for CAT
+2025-06-27 21:57:24,874 - BatchPipeline - INFO - Signal generation completed for CAT
+2025-06-27 21:57:24,874 - BatchPipeline - INFO - Generating signals for CCL
+2025-06-27 21:57:29,604 - BatchPipeline - INFO - Signal generation completed for CCL
+2025-06-27 21:57:29,605 - BatchPipeline - INFO - Generating signals for CMCSA
+2025-06-27 21:57:34,501 - BatchPipeline - INFO - Signal generation completed for CMCSA
+2025-06-27 21:57:34,501 - BatchPipeline - INFO - Generating signals for CON
+2025-06-27 21:57:39,045 - BatchPipeline - INFO - Signal generation completed for CON
+2025-06-27 21:57:39,045 - BatchPipeline - INFO - Generating signals for COST
+2025-06-27 21:57:43,392 - BatchPipeline - INFO - Signal generation completed for COST
+2025-06-27 21:57:43,393 - BatchPipeline - INFO - Generating signals for CRM
+2025-06-27 21:57:47,713 - BatchPipeline - INFO - Signal generation completed for CRM
+2025-06-27 21:57:47,714 - BatchPipeline - INFO - Generating signals for CSCO
+2025-06-27 21:57:52,205 - BatchPipeline - INFO - Signal generation completed for CSCO
+2025-06-27 21:57:52,205 - BatchPipeline - INFO - Generating signals for CVX
+2025-06-27 21:57:56,558 - BatchPipeline - INFO - Signal generation completed for CVX
+2025-06-27 21:57:56,558 - BatchPipeline - INFO - Generating signals for DAL
+2025-06-27 21:58:01,179 - BatchPipeline - INFO - Signal generation completed for DAL
+2025-06-27 21:58:01,179 - BatchPipeline - INFO - Generating signals for DE
+2025-06-27 21:58:05,559 - BatchPipeline - INFO - Signal generation completed for DE
+2025-06-27 21:58:05,559 - BatchPipeline - INFO - Generating signals for DIS
+2025-06-27 21:58:09,917 - BatchPipeline - INFO - Signal generation completed for DIS
+2025-06-27 21:58:09,917 - BatchPipeline - INFO - Generating signals for DTE
+2025-06-27 21:58:14,247 - BatchPipeline - INFO - Signal generation completed for DTE
+2025-06-27 21:58:14,248 - BatchPipeline - INFO - Generating signals for DTG
+2025-06-27 21:58:18,615 - BatchPipeline - INFO - Signal generation completed for DTG
+2025-06-27 21:58:18,615 - BatchPipeline - INFO - Generating signals for ENR
+2025-06-27 21:58:22,996 - BatchPipeline - INFO - Signal generation completed for ENR
+2025-06-27 21:58:22,996 - BatchPipeline - INFO - Generating signals for F
+2025-06-27 21:58:27,340 - BatchPipeline - INFO - Signal generation completed for F
+2025-06-27 21:58:27,340 - BatchPipeline - INFO - Generating signals for GILD
+2025-06-27 21:58:31,745 - BatchPipeline - INFO - Signal generation completed for GILD
+2025-06-27 21:58:31,745 - BatchPipeline - INFO - Generating signals for GM
+2025-06-27 21:58:36,136 - BatchPipeline - INFO - Signal generation completed for GM
+2025-06-27 21:58:36,137 - BatchPipeline - INFO - Generating signals for GOOG
+2025-06-27 21:58:40,777 - BatchPipeline - INFO - Signal generation completed for GOOG
+2025-06-27 21:58:40,778 - BatchPipeline - INFO - Generating signals for GOOGL
+2025-06-27 21:58:45,226 - BatchPipeline - INFO - Signal generation completed for GOOGL
+2025-06-27 21:58:45,226 - BatchPipeline - INFO - Generating signals for GS
+2025-06-27 21:58:49,678 - BatchPipeline - INFO - Signal generation completed for GS
+2025-06-27 21:58:49,678 - BatchPipeline - INFO - Generating signals for HAL
+2025-06-27 21:58:54,197 - BatchPipeline - INFO - Signal generation completed for HAL
+2025-06-27 21:58:54,198 - BatchPipeline - INFO - Generating signals for HD
+2025-06-27 21:58:58,843 - BatchPipeline - INFO - Signal generation completed for HD
+2025-06-27 21:58:58,843 - BatchPipeline - INFO - Generating signals for HEI
+2025-06-27 21:59:03,574 - BatchPipeline - INFO - Signal generation completed for HEI
+2025-06-27 21:59:03,574 - BatchPipeline - INFO - Generating signals for HON
+2025-06-27 21:59:08,060 - BatchPipeline - INFO - Signal generation completed for HON
+2025-06-27 21:59:08,060 - BatchPipeline - INFO - Generating signals for IBM
+2025-06-27 21:59:12,482 - BatchPipeline - INFO - Signal generation completed for IBM
+2025-06-27 21:59:12,482 - BatchPipeline - INFO - Generating signals for INTC
+2025-06-27 21:59:16,931 - BatchPipeline - INFO - Signal generation completed for INTC
+2025-06-27 21:59:16,931 - BatchPipeline - INFO - Generating signals for INTU
+2025-06-27 21:59:21,473 - BatchPipeline - INFO - Signal generation completed for INTU
+2025-06-27 21:59:21,473 - BatchPipeline - INFO - Generating signals for ISRG
+2025-06-27 21:59:25,899 - BatchPipeline - INFO - Signal generation completed for ISRG
+2025-06-27 21:59:25,900 - BatchPipeline - INFO - Generating signals for JNJ
+2025-06-27 21:59:30,399 - BatchPipeline - INFO - Signal generation completed for JNJ
+2025-06-27 21:59:30,399 - BatchPipeline - INFO - Generating signals for JPM
+2025-06-27 21:59:34,909 - BatchPipeline - INFO - Signal generation completed for JPM
+2025-06-27 21:59:34,909 - BatchPipeline - INFO - Generating signals for KO
+2025-06-27 21:59:39,399 - BatchPipeline - INFO - Signal generation completed for KO
+2025-06-27 21:59:39,399 - BatchPipeline - INFO - Generating signals for LLY
+2025-06-27 21:59:43,897 - BatchPipeline - INFO - Signal generation completed for LLY
+2025-06-27 21:59:43,897 - BatchPipeline - INFO - Generating signals for LMT
+2025-06-27 21:59:48,356 - BatchPipeline - INFO - Signal generation completed for LMT
+2025-06-27 21:59:48,357 - BatchPipeline - INFO - Generating signals for LOW
+2025-06-27 21:59:52,836 - BatchPipeline - INFO - Signal generation completed for LOW
+2025-06-27 21:59:52,836 - BatchPipeline - INFO - Generating signals for MA
+2025-06-27 21:59:57,262 - BatchPipeline - INFO - Signal generation completed for MA
+2025-06-27 21:59:57,262 - BatchPipeline - INFO - Generating signals for MBG
+2025-06-27 22:00:02,081 - BatchPipeline - INFO - Signal generation completed for MBG
+2025-06-27 22:00:02,082 - BatchPipeline - INFO - Generating signals for MCD
+2025-06-27 22:00:06,648 - BatchPipeline - INFO - Signal generation completed for MCD
+2025-06-27 22:00:06,648 - BatchPipeline - INFO - Generating signals for MDT
+2025-06-27 22:00:11,173 - BatchPipeline - INFO - Signal generation completed for MDT
+2025-06-27 22:00:11,174 - BatchPipeline - INFO - Generating signals for META
+2025-06-27 22:00:15,647 - BatchPipeline - INFO - Signal generation completed for META
+2025-06-27 22:00:15,647 - BatchPipeline - INFO - Generating signals for MMM
+2025-06-27 22:00:20,075 - BatchPipeline - INFO - Signal generation completed for MMM
+2025-06-27 22:00:20,075 - BatchPipeline - INFO - Generating signals for MRK
+2025-06-27 22:00:24,495 - BatchPipeline - INFO - Signal generation completed for MRK
+2025-06-27 22:00:24,495 - BatchPipeline - INFO - Generating signals for MRNA
+2025-06-27 22:00:28,878 - BatchPipeline - INFO - Signal generation completed for MRNA
+2025-06-27 22:00:28,878 - BatchPipeline - INFO - Generating signals for MS
+2025-06-27 22:00:33,200 - BatchPipeline - INFO - Signal generation completed for MS
+2025-06-27 22:00:33,200 - BatchPipeline - INFO - Generating signals for MSFT
+2025-06-27 22:00:37,561 - BatchPipeline - INFO - Signal generation completed for MSFT
+2025-06-27 22:00:37,561 - BatchPipeline - INFO - Generating signals for MTX
+2025-06-27 22:00:41,922 - BatchPipeline - INFO - Signal generation completed for MTX
+2025-06-27 22:00:41,922 - BatchPipeline - INFO - Generating signals for NCLH
+2025-06-27 22:00:46,300 - BatchPipeline - INFO - Signal generation completed for NCLH
+2025-06-27 22:00:46,301 - BatchPipeline - INFO - Generating signals for NKE
+2025-06-27 22:00:50,631 - BatchPipeline - INFO - Signal generation completed for NKE
+2025-06-27 22:00:50,631 - BatchPipeline - INFO - Generating signals for NVDA
+2025-06-27 22:00:55,029 - BatchPipeline - INFO - Signal generation completed for NVDA
+2025-06-27 22:00:55,029 - BatchPipeline - INFO - Generating signals for ORCL
+2025-06-27 22:00:59,540 - BatchPipeline - INFO - Signal generation completed for ORCL
+2025-06-27 22:00:59,540 - BatchPipeline - INFO - Generating signals for PEP
+2025-06-27 22:01:03,978 - BatchPipeline - INFO - Signal generation completed for PEP
+2025-06-27 22:01:03,978 - BatchPipeline - INFO - Generating signals for PFE
+2025-06-27 22:01:08,314 - BatchPipeline - INFO - Signal generation completed for PFE
+2025-06-27 22:01:08,314 - BatchPipeline - INFO - Generating signals for PG
+2025-06-27 22:01:12,612 - BatchPipeline - INFO - Signal generation completed for PG
+2025-06-27 22:01:12,612 - BatchPipeline - INFO - Generating signals for PM
+2025-06-27 22:01:16,921 - BatchPipeline - INFO - Signal generation completed for PM
+2025-06-27 22:01:16,921 - BatchPipeline - INFO - Generating signals for PYPL
+2025-06-27 22:01:21,324 - BatchPipeline - INFO - Signal generation completed for PYPL
+2025-06-27 22:01:21,325 - BatchPipeline - INFO - Generating signals for QCOM
+2025-06-27 22:01:25,623 - BatchPipeline - INFO - Signal generation completed for QCOM
+2025-06-27 22:01:25,623 - BatchPipeline - INFO - Generating signals for RCL
+2025-06-27 22:01:29,962 - BatchPipeline - INFO - Signal generation completed for RCL
+2025-06-27 22:01:29,962 - BatchPipeline - INFO - Generating signals for SAP
+2025-06-27 22:01:34,262 - BatchPipeline - INFO - Signal generation completed for SAP
+2025-06-27 22:01:34,262 - BatchPipeline - INFO - Generating signals for SBUX
+2025-06-27 22:01:38,599 - BatchPipeline - INFO - Signal generation completed for SBUX
+2025-06-27 22:01:38,599 - BatchPipeline - INFO - Generating signals for TMO
+2025-06-27 22:01:42,916 - BatchPipeline - INFO - Signal generation completed for TMO
+2025-06-27 22:01:42,916 - BatchPipeline - INFO - Generating signals for TMUS
+2025-06-27 22:01:47,244 - BatchPipeline - INFO - Signal generation completed for TMUS
+2025-06-27 22:01:47,244 - BatchPipeline - INFO - Generating signals for TSLA
+2025-06-27 22:01:51,575 - BatchPipeline - INFO - Signal generation completed for TSLA
+2025-06-27 22:01:51,575 - BatchPipeline - INFO - Generating signals for TXN
+2025-06-27 22:01:55,866 - BatchPipeline - INFO - Signal generation completed for TXN
+2025-06-27 22:01:55,866 - BatchPipeline - INFO - Generating signals for UAL
+2025-06-27 22:02:00,379 - BatchPipeline - INFO - Signal generation completed for UAL
+2025-06-27 22:02:00,379 - BatchPipeline - INFO - Generating signals for UBER
+2025-06-27 22:02:04,764 - BatchPipeline - INFO - Signal generation completed for UBER
+2025-06-27 22:02:04,765 - BatchPipeline - INFO - Generating signals for UNH
+2025-06-27 22:02:09,105 - BatchPipeline - INFO - Signal generation completed for UNH
+2025-06-27 22:02:09,106 - BatchPipeline - INFO - Generating signals for UPS
+2025-06-27 22:02:13,429 - BatchPipeline - INFO - Signal generation completed for UPS
+2025-06-27 22:02:13,430 - BatchPipeline - INFO - Generating signals for V
+2025-06-27 22:02:17,876 - BatchPipeline - INFO - Signal generation completed for V
+2025-06-27 22:02:17,876 - BatchPipeline - INFO - Generating signals for VZ
+2025-06-27 22:02:22,229 - BatchPipeline - INFO - Signal generation completed for VZ
+2025-06-27 22:02:22,229 - BatchPipeline - INFO - Generating signals for WMT
+2025-06-27 22:02:26,522 - BatchPipeline - INFO - Signal generation completed for WMT
+2025-06-27 22:02:26,522 - BatchPipeline - INFO - Generating signals for XOM
+2025-06-27 22:02:30,842 - BatchPipeline - INFO - Signal generation completed for XOM
+2025-06-27 22:02:30,842 - BatchPipeline - INFO - Generating signals for ^GDAXI
+2025-06-27 22:02:35,162 - BatchPipeline - INFO - Signal generation completed for ^GDAXI
+2025-06-27 22:02:35,163 - BatchPipeline - INFO - Generating signals for ^GSPC
+2025-06-27 22:02:39,500 - BatchPipeline - INFO - Signal generation completed for ^GSPC
+2025-06-27 22:02:39,500 - BatchPipeline - INFO - Generating signals for 0N08.IL
+2025-06-27 22:02:43,804 - BatchPipeline - INFO - Signal generation completed for 0N08.IL
+2025-06-27 22:02:43,805 - BatchPipeline - INFO - Generating signals for ADS.DE
+2025-06-27 22:02:48,198 - BatchPipeline - INFO - Signal generation completed for ADS.DE
+2025-06-27 22:02:48,198 - BatchPipeline - INFO - Generating signals for BAS.DE
+2025-06-27 22:02:52,538 - BatchPipeline - INFO - Signal generation completed for BAS.DE
+2025-06-27 22:02:52,538 - BatchPipeline - INFO - Generating signals for BAYN.DE
+2025-06-27 22:02:56,859 - BatchPipeline - INFO - Signal generation completed for BAYN.DE
+2025-06-27 22:02:56,860 - BatchPipeline - INFO - Generating signals for BEI.DE
+2025-06-27 22:03:01,490 - BatchPipeline - INFO - Signal generation completed for BEI.DE
+2025-06-27 22:03:01,491 - BatchPipeline - INFO - Generating signals for BMW.DE
+2025-06-27 22:03:05,853 - BatchPipeline - INFO - Signal generation completed for BMW.DE
+2025-06-27 22:03:05,853 - BatchPipeline - INFO - Generating signals for CBK.DE
+2025-06-27 22:03:10,223 - BatchPipeline - INFO - Signal generation completed for CBK.DE
+2025-06-27 22:03:10,224 - BatchPipeline - INFO - Generating signals for DB1.DE
+2025-06-27 22:03:14,604 - BatchPipeline - INFO - Signal generation completed for DB1.DE
+2025-06-27 22:03:14,604 - BatchPipeline - INFO - Generating signals for DBK.DE
+2025-06-27 22:03:18,961 - BatchPipeline - INFO - Signal generation completed for DBK.DE
+2025-06-27 22:03:18,962 - BatchPipeline - INFO - Generating signals for EOAN.DE
+2025-06-27 22:03:23,432 - BatchPipeline - INFO - Signal generation completed for EOAN.DE
+2025-06-27 22:03:23,433 - BatchPipeline - INFO - Generating signals for FME.DE
+2025-06-27 22:03:27,810 - BatchPipeline - INFO - Signal generation completed for FME.DE
+2025-06-27 22:03:27,810 - BatchPipeline - INFO - Generating signals for FRE.DE
+2025-06-27 22:03:32,148 - BatchPipeline - INFO - Signal generation completed for FRE.DE
+2025-06-27 22:03:32,148 - BatchPipeline - INFO - Generating signals for HEN3.DE
+2025-06-27 22:03:36,560 - BatchPipeline - INFO - Signal generation completed for HEN3.DE
+2025-06-27 22:03:36,560 - BatchPipeline - INFO - Generating signals for HNR1.DE
+2025-06-27 22:03:40,879 - BatchPipeline - INFO - Signal generation completed for HNR1.DE
+2025-06-27 22:03:40,879 - BatchPipeline - INFO - Generating signals for IFX.DE
+2025-06-27 22:03:45,233 - BatchPipeline - INFO - Signal generation completed for IFX.DE
+2025-06-27 22:03:45,233 - BatchPipeline - INFO - Generating signals for MUV2.DE
+2025-06-27 22:03:49,541 - BatchPipeline - INFO - Signal generation completed for MUV2.DE
+2025-06-27 22:03:49,542 - BatchPipeline - INFO - Generating signals for P911.DE
+2025-06-27 22:03:53,925 - BatchPipeline - INFO - Signal generation completed for P911.DE
+2025-06-27 22:03:53,925 - BatchPipeline - INFO - Generating signals for PAH3.DE
+2025-06-27 22:03:58,386 - BatchPipeline - INFO - Signal generation completed for PAH3.DE
+2025-06-27 22:03:58,386 - BatchPipeline - INFO - Generating signals for QIA.DE
+2025-06-27 22:04:02,912 - BatchPipeline - INFO - Signal generation completed for QIA.DE
+2025-06-27 22:04:02,912 - BatchPipeline - INFO - Generating signals for RWE.DE
+2025-06-27 22:04:07,244 - BatchPipeline - INFO - Signal generation completed for RWE.DE
+2025-06-27 22:04:07,244 - BatchPipeline - INFO - Generating signals for SHL.DE
+2025-06-27 22:04:11,589 - BatchPipeline - INFO - Signal generation completed for SHL.DE
+2025-06-27 22:04:11,590 - BatchPipeline - INFO - Generating signals for SIE.DE
+2025-06-27 22:04:15,905 - BatchPipeline - INFO - Signal generation completed for SIE.DE
+2025-06-27 22:04:15,905 - BatchPipeline - INFO - Generating signals for SRT3.DE
+2025-06-27 22:04:20,234 - BatchPipeline - INFO - Signal generation completed for SRT3.DE
+2025-06-27 22:04:20,235 - BatchPipeline - INFO - Generating signals for SY1.DE
+2025-06-27 22:04:24,593 - BatchPipeline - INFO - Signal generation completed for SY1.DE
+2025-06-27 22:04:24,593 - BatchPipeline - INFO - Generating signals for VNA.DE
+2025-06-27 22:04:28,922 - BatchPipeline - INFO - Signal generation completed for VNA.DE
+2025-06-27 22:04:28,922 - BatchPipeline - INFO - Generating signals for VOW3.DE
+2025-06-27 22:04:33,284 - BatchPipeline - INFO - Signal generation completed for VOW3.DE
+2025-06-27 22:04:33,284 - BatchPipeline - INFO - Generating signals for ZAL.DE
+2025-06-27 22:04:37,669 - BatchPipeline - INFO - Signal generation completed for ZAL.DE
+2025-06-27 22:04:37,669 - BatchPipeline - INFO - Signal generation completed for 121/121 symbols
+2025-06-27 22:04:37,669 - BatchPipeline - INFO - Enhanced pipeline execution completed in 611.94 seconds
+2025-06-27 22:04:37,669 - BatchPipeline - INFO - Summary: 119/121 symbols collected
+2025-06-27 22:04:37,669 - BatchPipeline - INFO - Processing completed for 121 symbols

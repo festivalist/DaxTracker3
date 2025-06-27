@@ -1,0 +1,152 @@
+2025-06-27 14:36:04,873 - CollectorScheduler - INFO - Starting market data collection job (multi-source)
+2025-06-27 14:36:04,874 - CollectorScheduler - INFO - Fetching AAPL from yahoo at 2025-06-27 14:36:04.874014
+2025-06-27 14:36:08,787 - CollectorScheduler - INFO - Fetching MSFT from yahoo at 2025-06-27 14:36:08.787608
+2025-06-27 14:36:10,888 - CollectorScheduler - INFO - Fetching AMZN from yahoo at 2025-06-27 14:36:10.887983
+2025-06-27 14:36:12,970 - CollectorScheduler - INFO - Fetching GOOGL from yahoo at 2025-06-27 14:36:12.970407
+2025-06-27 14:36:15,059 - CollectorScheduler - INFO - Fetching META from yahoo at 2025-06-27 14:36:15.059313
+2025-06-27 14:36:17,203 - CollectorScheduler - INFO - Fetching TSLA from yahoo at 2025-06-27 14:36:17.203549
+2025-06-27 14:36:19,288 - CollectorScheduler - INFO - Fetching NVDA from yahoo at 2025-06-27 14:36:19.288131
+2025-06-27 14:36:21,443 - CollectorScheduler - INFO - Fetching ^GSPC from yahoo at 2025-06-27 14:36:21.443726
+2025-06-27 14:36:23,511 - CollectorScheduler - INFO - Fetching ^DJI from yahoo at 2025-06-27 14:36:23.511075
+2025-06-27 14:36:25,665 - CollectorScheduler - INFO - Fetching ^IXIC from yahoo at 2025-06-27 14:36:25.665066
+2025-06-27 14:36:27,871 - CollectorScheduler - INFO - Fetching ^GDAXI from yahoo at 2025-06-27 14:36:27.871235
+2025-06-27 14:36:29,947 - CollectorScheduler - INFO - Market data collection job completed (multi-source)
+2025-06-27 14:36:29,947 - CollectorScheduler - INFO - Starting news collection job
+2025-06-27 14:36:38,106 - CollectorScheduler - INFO - News collection job completed
+2025-06-27 14:36:38,106 - CollectorScheduler - INFO - Starting scheduler main loop
+2025-06-27 14:41:05,174 - CollectorScheduler - INFO - Starting market data collection job (multi-source)
+2025-06-27 14:41:05,174 - CollectorScheduler - INFO - Fetching AAPL from yahoo at 2025-06-27 14:41:05.174862
+2025-06-27 14:41:07,432 - CollectorScheduler - INFO - Fetching MSFT from yahoo at 2025-06-27 14:41:07.431998
+2025-06-27 14:41:09,563 - CollectorScheduler - INFO - Fetching AMZN from yahoo at 2025-06-27 14:41:09.563301
+2025-06-27 14:41:11,697 - CollectorScheduler - INFO - Fetching GOOGL from yahoo at 2025-06-27 14:41:11.697056
+2025-06-27 14:41:13,849 - CollectorScheduler - INFO - Fetching META from yahoo at 2025-06-27 14:41:13.849038
+2025-06-27 14:41:15,942 - CollectorScheduler - INFO - Fetching TSLA from yahoo at 2025-06-27 14:41:15.942037
+2025-06-27 14:41:18,023 - CollectorScheduler - INFO - Fetching NVDA from yahoo at 2025-06-27 14:41:18.023837
+2025-06-27 14:41:20,111 - CollectorScheduler - INFO - Fetching ^GSPC from yahoo at 2025-06-27 14:41:20.111167
+2025-06-27 14:41:22,179 - CollectorScheduler - INFO - Fetching ^DJI from yahoo at 2025-06-27 14:41:22.179940
+2025-06-27 14:41:24,258 - CollectorScheduler - INFO - Fetching ^IXIC from yahoo at 2025-06-27 14:41:24.258857
+2025-06-27 14:41:26,333 - CollectorScheduler - INFO - Fetching ^GDAXI from yahoo at 2025-06-27 14:41:26.333942
+2025-06-27 14:41:28,400 - CollectorScheduler - INFO - Market data collection job completed (multi-source)
+2025-06-27 14:47:28,905 - CollectorScheduler - INFO - Starting market data collection job (multi-source)
+2025-06-27 14:47:28,905 - CollectorScheduler - INFO - Fetching AAPL from yahoo at 2025-06-27 14:47:28.905216
+2025-06-27 14:47:31,388 - CollectorScheduler - INFO - Fetching MSFT from yahoo at 2025-06-27 14:47:31.388530
+2025-06-27 14:47:33,491 - CollectorScheduler - INFO - Fetching AMZN from yahoo at 2025-06-27 14:47:33.491829
+2025-06-27 14:47:35,580 - CollectorScheduler - INFO - Fetching GOOGL from yahoo at 2025-06-27 14:47:35.580596
+2025-06-27 14:47:37,665 - CollectorScheduler - INFO - Fetching META from yahoo at 2025-06-27 14:47:37.665318
+2025-06-27 14:47:39,743 - CollectorScheduler - INFO - Fetching TSLA from yahoo at 2025-06-27 14:47:39.743715
+2025-06-27 14:47:41,817 - CollectorScheduler - INFO - Fetching NVDA from yahoo at 2025-06-27 14:47:41.817745
+2025-06-27 14:47:43,957 - CollectorScheduler - INFO - Fetching ^GSPC from yahoo at 2025-06-27 14:47:43.957111
+2025-06-27 14:47:46,034 - CollectorScheduler - INFO - Fetching ^DJI from yahoo at 2025-06-27 14:47:46.034434
+2025-06-27 14:47:48,167 - CollectorScheduler - INFO - Fetching ^IXIC from yahoo at 2025-06-27 14:47:48.167018
+2025-06-27 14:47:50,252 - CollectorScheduler - INFO - Fetching ^GDAXI from yahoo at 2025-06-27 14:47:50.252912
+2025-06-27 14:47:52,328 - CollectorScheduler - INFO - Market data collection job completed (multi-source)
+2025-06-27 14:47:52,328 - CollectorScheduler - INFO - Starting news collection job
+2025-06-27 14:48:00,586 - CollectorScheduler - INFO - News collection job completed
+2025-06-27 14:48:00,586 - CollectorScheduler - INFO - Starting scheduler main loop
+2025-06-27 14:52:29,651 - CollectorScheduler - INFO - Starting market data collection job (multi-source)
+2025-06-27 14:52:29,651 - CollectorScheduler - INFO - Fetching AAPL from yahoo at 2025-06-27 14:52:29.651144
+2025-06-27 14:52:31,836 - CollectorScheduler - INFO - Fetching MSFT from yahoo at 2025-06-27 14:52:31.836321
+2025-06-27 14:52:33,946 - CollectorScheduler - INFO - Fetching AMZN from yahoo at 2025-06-27 14:52:33.946523
+2025-06-27 14:52:36,019 - CollectorScheduler - INFO - Fetching GOOGL from yahoo at 2025-06-27 14:52:36.019156
+2025-06-27 14:52:38,180 - CollectorScheduler - INFO - Fetching META from yahoo at 2025-06-27 14:52:38.180816
+2025-06-27 14:52:40,249 - CollectorScheduler - INFO - Fetching TSLA from yahoo at 2025-06-27 14:52:40.249873
+2025-06-27 14:52:42,320 - CollectorScheduler - INFO - Fetching NVDA from yahoo at 2025-06-27 14:52:42.320608
+2025-06-27 14:52:44,465 - CollectorScheduler - INFO - Fetching ^GSPC from yahoo at 2025-06-27 14:52:44.465487
+2025-06-27 14:52:46,537 - CollectorScheduler - INFO - Fetching ^DJI from yahoo at 2025-06-27 14:52:46.537601
+2025-06-27 14:52:48,611 - CollectorScheduler - INFO - Fetching ^IXIC from yahoo at 2025-06-27 14:52:48.610993
+2025-06-27 14:52:50,681 - CollectorScheduler - INFO - Fetching ^GDAXI from yahoo at 2025-06-27 14:52:50.681469
+2025-06-27 14:52:52,755 - CollectorScheduler - INFO - Market data collection job completed (multi-source)
+2025-06-27 14:57:52,832 - CollectorScheduler - INFO - Starting market data collection job (multi-source)
+2025-06-27 14:57:52,832 - CollectorScheduler - INFO - Fetching AAPL from yahoo at 2025-06-27 14:57:52.832541
+2025-06-27 14:57:55,042 - CollectorScheduler - INFO - Fetching MSFT from yahoo at 2025-06-27 14:57:55.042126
+2025-06-27 14:57:57,176 - CollectorScheduler - INFO - Fetching AMZN from yahoo at 2025-06-27 14:57:57.176331
+2025-06-27 14:57:59,293 - CollectorScheduler - INFO - Fetching GOOGL from yahoo at 2025-06-27 14:57:59.293475
+2025-06-27 14:58:01,368 - CollectorScheduler - INFO - Fetching META from yahoo at 2025-06-27 14:58:01.368860
+2025-06-27 14:58:03,495 - CollectorScheduler - INFO - Fetching TSLA from yahoo at 2025-06-27 14:58:03.495243
+2025-06-27 14:58:05,622 - CollectorScheduler - INFO - Fetching NVDA from yahoo at 2025-06-27 14:58:05.622476
+2025-06-27 14:58:07,710 - CollectorScheduler - INFO - Fetching ^GSPC from yahoo at 2025-06-27 14:58:07.710183
+2025-06-27 14:58:09,794 - CollectorScheduler - INFO - Fetching ^DJI from yahoo at 2025-06-27 14:58:09.794439
+2025-06-27 14:58:11,867 - CollectorScheduler - INFO - Fetching ^IXIC from yahoo at 2025-06-27 14:58:11.867356
+2025-06-27 14:58:13,938 - CollectorScheduler - INFO - Fetching ^GDAXI from yahoo at 2025-06-27 14:58:13.938130
+2025-06-27 14:58:16,075 - CollectorScheduler - INFO - Market data collection job completed (multi-source)
+2025-06-27 15:00:19,840 - CollectorScheduler - INFO - Starting market data collection job (multi-source)
+2025-06-27 15:00:19,840 - CollectorScheduler - INFO - Fetching AAPL from yahoo at 2025-06-27 15:00:19.840821
+2025-06-27 15:00:22,278 - CollectorScheduler - INFO - Fetching MSFT from yahoo at 2025-06-27 15:00:22.278240
+2025-06-27 15:00:24,421 - CollectorScheduler - INFO - Fetching AMZN from yahoo at 2025-06-27 15:00:24.421712
+2025-06-27 15:00:26,499 - CollectorScheduler - INFO - Fetching GOOGL from yahoo at 2025-06-27 15:00:26.499221
+2025-06-27 15:00:28,578 - CollectorScheduler - INFO - Fetching META from yahoo at 2025-06-27 15:00:28.578075
+2025-06-27 15:00:30,672 - CollectorScheduler - INFO - Fetching TSLA from yahoo at 2025-06-27 15:00:30.672321
+2025-06-27 15:00:32,770 - CollectorScheduler - INFO - Fetching NVDA from yahoo at 2025-06-27 15:00:32.770424
+2025-06-27 15:00:34,857 - CollectorScheduler - INFO - Fetching ^GSPC from yahoo at 2025-06-27 15:00:34.857419
+2025-06-27 15:00:36,961 - CollectorScheduler - INFO - Fetching ^DJI from yahoo at 2025-06-27 15:00:36.961630
+2025-06-27 15:00:39,086 - CollectorScheduler - INFO - Fetching ^IXIC from yahoo at 2025-06-27 15:00:39.086542
+2025-06-27 15:00:41,171 - CollectorScheduler - INFO - Fetching ^GDAXI from yahoo at 2025-06-27 15:00:41.171926
+2025-06-27 15:00:43,307 - CollectorScheduler - INFO - Market data collection job completed (multi-source)
+2025-06-27 15:00:43,308 - CollectorScheduler - INFO - Starting news collection job
+2025-06-27 15:00:52,021 - CollectorScheduler - INFO - News collection job completed
+2025-06-27 15:00:52,022 - CollectorScheduler - INFO - Starting scheduler main loop
+2025-06-27 15:05:20,092 - CollectorScheduler - INFO - Starting market data collection job (multi-source)
+2025-06-27 15:05:20,093 - CollectorScheduler - INFO - Fetching AAPL from yahoo at 2025-06-27 15:05:20.093038
+2025-06-27 15:05:22,329 - CollectorScheduler - INFO - Fetching MSFT from yahoo at 2025-06-27 15:05:22.329027
+2025-06-27 15:05:24,445 - CollectorScheduler - INFO - Fetching AMZN from yahoo at 2025-06-27 15:05:24.445102
+2025-06-27 15:05:26,522 - CollectorScheduler - INFO - Fetching GOOGL from yahoo at 2025-06-27 15:05:26.522107
+2025-06-27 15:05:28,604 - CollectorScheduler - INFO - Fetching META from yahoo at 2025-06-27 15:05:28.604605
+2025-06-27 15:05:30,684 - CollectorScheduler - INFO - Fetching TSLA from yahoo at 2025-06-27 15:05:30.684035
+2025-06-27 15:05:32,763 - CollectorScheduler - INFO - Fetching NVDA from yahoo at 2025-06-27 15:05:32.763237
+2025-06-27 15:05:34,917 - CollectorScheduler - INFO - Fetching ^GSPC from yahoo at 2025-06-27 15:05:34.917527
+2025-06-27 15:05:37,074 - CollectorScheduler - INFO - Fetching ^DJI from yahoo at 2025-06-27 15:05:37.074373
+2025-06-27 15:05:39,147 - CollectorScheduler - INFO - Fetching ^IXIC from yahoo at 2025-06-27 15:05:39.147009
+2025-06-27 15:05:41,219 - CollectorScheduler - INFO - Fetching ^GDAXI from yahoo at 2025-06-27 15:05:41.219391
+2025-06-27 15:05:43,302 - CollectorScheduler - INFO - Market data collection job completed (multi-source)
+2025-06-27 15:10:43,381 - CollectorScheduler - INFO - Starting market data collection job (multi-source)
+2025-06-27 15:10:43,382 - CollectorScheduler - INFO - Fetching AAPL from yahoo at 2025-06-27 15:10:43.382246
+2025-06-27 15:10:45,579 - CollectorScheduler - INFO - Fetching MSFT from yahoo at 2025-06-27 15:10:45.579925
+2025-06-27 15:10:47,681 - CollectorScheduler - INFO - Fetching AMZN from yahoo at 2025-06-27 15:10:47.681472
+2025-06-27 15:10:49,771 - CollectorScheduler - INFO - Fetching GOOGL from yahoo at 2025-06-27 15:10:49.771370
+2025-06-27 15:10:51,841 - CollectorScheduler - INFO - Fetching META from yahoo at 2025-06-27 15:10:51.841462
+2025-06-27 15:10:53,927 - CollectorScheduler - INFO - Fetching TSLA from yahoo at 2025-06-27 15:10:53.927536
+2025-06-27 15:10:55,998 - CollectorScheduler - INFO - Fetching NVDA from yahoo at 2025-06-27 15:10:55.998545
+2025-06-27 15:10:58,157 - CollectorScheduler - INFO - Fetching ^GSPC from yahoo at 2025-06-27 15:10:58.157632
+2025-06-27 15:11:00,236 - CollectorScheduler - INFO - Fetching ^DJI from yahoo at 2025-06-27 15:11:00.236759
+2025-06-27 15:11:02,333 - CollectorScheduler - INFO - Fetching ^IXIC from yahoo at 2025-06-27 15:11:02.333565
+2025-06-27 15:11:04,416 - CollectorScheduler - INFO - Fetching ^GDAXI from yahoo at 2025-06-27 15:11:04.416742
+2025-06-27 15:11:06,493 - CollectorScheduler - INFO - Market data collection job completed (multi-source)
+2025-06-27 15:16:06,564 - CollectorScheduler - INFO - Starting market data collection job (multi-source)
+2025-06-27 15:16:06,564 - CollectorScheduler - INFO - Fetching AAPL from yahoo at 2025-06-27 15:16:06.564972
+2025-06-27 15:16:08,774 - CollectorScheduler - INFO - Fetching MSFT from yahoo at 2025-06-27 15:16:08.774258
+2025-06-27 15:16:10,893 - CollectorScheduler - INFO - Fetching AMZN from yahoo at 2025-06-27 15:16:10.893334
+2025-06-27 15:16:12,975 - CollectorScheduler - INFO - Fetching GOOGL from yahoo at 2025-06-27 15:16:12.975610
+2025-06-27 15:16:15,052 - CollectorScheduler - INFO - Fetching META from yahoo at 2025-06-27 15:16:15.052598
+2025-06-27 15:16:17,130 - CollectorScheduler - INFO - Fetching TSLA from yahoo at 2025-06-27 15:16:17.130812
+2025-06-27 15:16:19,205 - CollectorScheduler - INFO - Fetching NVDA from yahoo at 2025-06-27 15:16:19.205321
+2025-06-27 15:16:21,300 - CollectorScheduler - INFO - Fetching ^GSPC from yahoo at 2025-06-27 15:16:21.300504
+2025-06-27 15:16:23,379 - CollectorScheduler - INFO - Fetching ^DJI from yahoo at 2025-06-27 15:16:23.379533
+2025-06-27 15:16:25,487 - CollectorScheduler - INFO - Fetching ^IXIC from yahoo at 2025-06-27 15:16:25.487798
+2025-06-27 15:16:27,576 - CollectorScheduler - INFO - Fetching ^GDAXI from yahoo at 2025-06-27 15:16:27.576409
+2025-06-27 15:16:29,654 - CollectorScheduler - INFO - Market data collection job completed (multi-source)
+2025-06-27 15:21:29,733 - CollectorScheduler - INFO - Starting market data collection job (multi-source)
+2025-06-27 15:21:29,733 - CollectorScheduler - INFO - Fetching AAPL from yahoo at 2025-06-27 15:21:29.733388
+2025-06-27 15:21:31,957 - CollectorScheduler - INFO - Fetching MSFT from yahoo at 2025-06-27 15:21:31.957366
+2025-06-27 15:21:34,067 - CollectorScheduler - INFO - Fetching AMZN from yahoo at 2025-06-27 15:21:34.067154
+2025-06-27 15:21:36,143 - CollectorScheduler - INFO - Fetching GOOGL from yahoo at 2025-06-27 15:21:36.143701
+2025-06-27 15:21:38,306 - CollectorScheduler - INFO - Fetching META from yahoo at 2025-06-27 15:21:38.306477
+2025-06-27 15:21:40,414 - CollectorScheduler - INFO - Fetching TSLA from yahoo at 2025-06-27 15:21:40.414568
+2025-06-27 15:21:42,496 - CollectorScheduler - INFO - Fetching NVDA from yahoo at 2025-06-27 15:21:42.496287
+2025-06-27 15:21:44,584 - CollectorScheduler - INFO - Fetching ^GSPC from yahoo at 2025-06-27 15:21:44.584780
+2025-06-27 15:21:46,759 - CollectorScheduler - INFO - Fetching ^DJI from yahoo at 2025-06-27 15:21:46.759360
+2025-06-27 15:21:48,848 - CollectorScheduler - INFO - Fetching ^IXIC from yahoo at 2025-06-27 15:21:48.848296
+2025-06-27 15:21:50,931 - CollectorScheduler - INFO - Fetching ^GDAXI from yahoo at 2025-06-27 15:21:50.931109
+2025-06-27 15:21:53,014 - CollectorScheduler - INFO - Market data collection job completed (multi-source)
+2025-06-27 15:26:53,106 - CollectorScheduler - INFO - Starting market data collection job (multi-source)
+2025-06-27 15:26:53,106 - CollectorScheduler - INFO - Fetching AAPL from yahoo at 2025-06-27 15:26:53.106736
+2025-06-27 15:26:55,298 - CollectorScheduler - INFO - Fetching MSFT from yahoo at 2025-06-27 15:26:55.298468
+2025-06-27 15:26:57,445 - CollectorScheduler - INFO - Fetching AMZN from yahoo at 2025-06-27 15:26:57.445234
+2025-06-27 15:26:59,523 - CollectorScheduler - INFO - Fetching GOOGL from yahoo at 2025-06-27 15:26:59.523414
+2025-06-27 15:27:01,620 - CollectorScheduler - INFO - Fetching META from yahoo at 2025-06-27 15:27:01.620047
+2025-06-27 15:27:03,697 - CollectorScheduler - INFO - Fetching TSLA from yahoo at 2025-06-27 15:27:03.697139
+2025-06-27 15:27:05,790 - CollectorScheduler - INFO - Fetching NVDA from yahoo at 2025-06-27 15:27:05.790377
+2025-06-27 15:27:07,943 - CollectorScheduler - INFO - Fetching ^GSPC from yahoo at 2025-06-27 15:27:07.943461
+2025-06-27 15:27:10,031 - CollectorScheduler - INFO - Fetching ^DJI from yahoo at 2025-06-27 15:27:10.031645
+2025-06-27 15:27:12,107 - CollectorScheduler - INFO - Fetching ^IXIC from yahoo at 2025-06-27 15:27:12.107059
+2025-06-27 15:27:14,184 - CollectorScheduler - INFO - Fetching ^GDAXI from yahoo at 2025-06-27 15:27:14.184718
+2025-06-27 15:27:16,298 - CollectorScheduler - INFO - Market data collection job completed (multi-source)

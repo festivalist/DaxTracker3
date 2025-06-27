@@ -1,0 +1,36 @@
+2025-06-27 16:22:47,019 [INFO] MarketPredictor: Evaluating model for AAPL using 90 days lookback
+2025-06-27 16:22:47,029 [INFO] MarketPredictor: Loaded market prediction model for AAPL
+2025-06-27 16:22:47,030 [INFO] MarketPredictor: Loaded scaler parameters for AAPL
+2025-06-27 16:22:47,032 [WARNING] MarketPredictor: Insufficient data for AAPL: only 27 records found
+2025-06-27 16:43:18,517 [INFO] MarketPredictor: Evaluating model for ^GDAXI using 90 days lookback
+2025-06-27 16:43:18,519 [WARNING] MarketPredictor: No specific model found for ^GDAXI, trying generic model
+2025-06-27 16:43:18,519 [ERROR] MarketPredictor: No model available for ^GDAXI
+2025-06-27 16:48:58,466 [INFO] MarketPredictor: Evaluating model for AAPL using 90 days lookback
+2025-06-27 16:48:58,471 [INFO] MarketPredictor: Loaded market prediction model for AAPL
+2025-06-27 16:48:58,471 [INFO] MarketPredictor: Loaded scaler parameters for AAPL
+2025-06-27 16:48:58,474 [WARNING] MarketPredictor: Insufficient data for AAPL: only 27 records found
+2025-06-27 16:49:28,756 [INFO] MarketPredictor: Evaluating model for AAPL using 25 days lookback
+2025-06-27 16:49:28,761 [INFO] MarketPredictor: Loaded market prediction model for AAPL
+2025-06-27 16:49:28,762 [INFO] MarketPredictor: Loaded scaler parameters for AAPL
+2025-06-27 16:49:28,764 [WARNING] MarketPredictor: Insufficient data for AAPL: only 18 records found
+2025-06-27 17:19:31,041 [INFO] MarketPredictor: Evaluating model for AAPL using 20 days lookback
+2025-06-27 17:19:31,046 [INFO] MarketPredictor: Loaded market prediction model for AAPL
+2025-06-27 17:19:31,047 [INFO] MarketPredictor: Loaded scaler parameters for AAPL
+2025-06-27 17:19:31,049 [WARNING] MarketPredictor: Insufficient data for AAPL: only 13 records found
+2025-06-27 18:24:41,727 [INFO] MarketPredictor: Evaluating model for AAPL using 20 days lookback
+2025-06-27 18:24:41,769 [INFO] MarketPredictor: Loaded market prediction model for AAPL
+2025-06-27 18:24:41,770 [INFO] MarketPredictor: Loaded scaler parameters for AAPL
+2025-06-27 18:24:41,772 [WARNING] MarketPredictor: Insufficient data for AAPL: only 13 records found
+2025-06-27 18:35:55,508 [INFO] MarketPredictor: Evaluating model for AAPL using 20 days lookback
+2025-06-27 18:35:55,513 [INFO] MarketPredictor: Loaded market prediction model for AAPL
+2025-06-27 18:35:55,514 [INFO] MarketPredictor: Loaded scaler parameters for AAPL
+2025-06-27 18:35:55,516 [WARNING] MarketPredictor: Insufficient data for AAPL: only 13 records found
+2025-06-27 22:39:51,386 [WARNING] MarketPredictor: Insufficient data for 0N08.IL: 22 records, need 60
+2025-06-27 22:39:51,386 [INFO] MarketPredictor: Adjusting sequence length from 60 to 21
+2025-06-27 22:39:51,451 [INFO] MarketPredictor: Prediction for 0N08.IL: sideways with 0.36 confidence
+2025-06-27 22:39:58,517 [WARNING] MarketPredictor: Insufficient data for AAL: 29 records, need 60
+2025-06-27 22:39:58,518 [INFO] MarketPredictor: Adjusting sequence length from 60 to 28
+2025-06-27 22:39:58,525 [INFO] MarketPredictor: Prediction for AAL: sideways with 0.34 confidence
+2025-06-27 22:40:13,832 [WARNING] MarketPredictor: Insufficient data for RHM: 24 records, need 60
+2025-06-27 22:40:13,832 [INFO] MarketPredictor: Adjusting sequence length from 60 to 23
+2025-06-27 22:40:13,838 [INFO] MarketPredictor: Prediction for RHM: up with 0.36 confidence

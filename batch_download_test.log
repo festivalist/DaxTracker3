@@ -1,0 +1,170 @@
+2025-06-27 21:18:51,874 - INFO - Starting batch download tests
+2025-06-27 21:18:51,874 - INFO - === TEST 1: Small batch with 1-minute intraday data ===
+2025-06-27 21:18:51,874 - INFO - Testing batch download for 8 symbols with interval=1m, period=1d
+2025-06-27 21:18:53,513 - INFO - Download completed in 1.63 seconds
+2025-06-27 21:18:53,513 - INFO - Available symbols: 8/8
+2025-06-27 21:18:53,513 - INFO - Missing symbols: 0/8
+2025-06-27 21:18:53,514 - INFO - AAPL: 350 data points
+2025-06-27 21:18:53,514 - INFO - MSFT: 349 data points
+2025-06-27 21:18:53,514 - INFO - AMZN: 349 data points
+2025-06-27 21:18:53,514 - INFO - GOOGL: 350 data points
+2025-06-27 21:18:53,514 - INFO - NVDA: 350 data points
+2025-06-27 21:18:53,514 - INFO - ^GDAXI: 510 data points
+2025-06-27 21:18:53,515 - INFO - ^GSPC: 350 data points
+2025-06-27 21:18:53,515 - INFO - ^DJI: 350 data points
+2025-06-27 21:18:53,736 - INFO - Successfully stored 5920 records in database
+2025-06-27 21:18:53,737 - INFO - === TEST 2: Small batch with 5-minute intraday data ===
+2025-06-27 21:18:53,737 - INFO - Testing batch download for 8 symbols with interval=5m, period=5d
+2025-06-27 21:18:53,962 - INFO - Download completed in 0.22 seconds
+2025-06-27 21:18:53,962 - INFO - Available symbols: 8/8
+2025-06-27 21:18:53,962 - INFO - Missing symbols: 0/8
+2025-06-27 21:18:53,962 - INFO - AAPL: 382 data points
+2025-06-27 21:18:53,963 - INFO - MSFT: 382 data points
+2025-06-27 21:18:53,963 - INFO - AMZN: 382 data points
+2025-06-27 21:18:53,963 - INFO - GOOGL: 382 data points
+2025-06-27 21:18:53,963 - INFO - NVDA: 382 data points
+2025-06-27 21:18:53,963 - INFO - ^GDAXI: 510 data points
+2025-06-27 21:18:53,963 - INFO - ^GSPC: 382 data points
+2025-06-27 21:18:53,963 - INFO - ^DJI: 382 data points
+2025-06-27 21:18:54,204 - INFO - Successfully stored 6176 records in database
+2025-06-27 21:18:54,208 - INFO - Found 120 symbols in CSV file
+2025-06-27 21:18:54,209 - INFO - === TEST 4.1: Batch 1/3 (50 symbols) ===
+2025-06-27 21:18:54,209 - INFO - Testing batch download for 50 symbols with interval=1h, period=1d
+2025-06-27 21:19:04,672 - ERROR - 
+3 Failed downloads:
+2025-06-27 21:19:04,672 - ERROR - ['MBG', '0N08.IL']: YFPricesMissingError('possibly delisted; no price data found  (period=1d)')
+2025-06-27 21:19:04,672 - ERROR - ['ADS.DE']: Timeout('Failed to perform, curl: (28) Connection timed out after 10014 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+2025-06-27 21:19:04,719 - INFO - Download completed in 10.48 seconds
+2025-06-27 21:19:04,719 - INFO - Available symbols: 47/50
+2025-06-27 21:19:04,720 - INFO - Missing symbols: 3/50
+2025-06-27 21:19:04,720 - WARNING - ADS.DE: No data
+2025-06-27 21:19:04,720 - INFO - AIR: 6 data points
+2025-06-27 21:19:04,720 - INFO - ALV: 6 data points
+2025-06-27 21:19:04,720 - INFO - BAS.DE: 9 data points
+2025-06-27 21:19:04,720 - INFO - BAYN.DE: 9 data points
+2025-06-27 21:19:04,721 - INFO - BEI.DE: 9 data points
+2025-06-27 21:19:04,721 - INFO - BMW.DE: 9 data points
+2025-06-27 21:19:04,721 - INFO - BNR: 6 data points
+2025-06-27 21:19:04,721 - INFO - CBK.DE: 9 data points
+2025-06-27 21:19:04,721 - INFO - CON: 6 data points
+2025-06-27 21:19:04,721 - INFO - DTG: 6 data points
+2025-06-27 21:19:04,721 - INFO - DBK.DE: 9 data points
+2025-06-27 21:19:04,722 - INFO - DB1.DE: 9 data points
+2025-06-27 21:19:04,722 - WARNING - 0N08.IL: No data
+2025-06-27 21:19:04,722 - INFO - DTE: 6 data points
+2025-06-27 21:19:04,722 - INFO - EOAN.DE: 9 data points
+2025-06-27 21:19:04,722 - INFO - FRE.DE: 9 data points
+2025-06-27 21:19:04,722 - INFO - FME.DE: 9 data points
+2025-06-27 21:19:04,722 - INFO - HNR1.DE: 9 data points
+2025-06-27 21:19:04,722 - INFO - HEI: 6 data points
+2025-06-27 21:19:04,723 - INFO - HEN3.DE: 9 data points
+2025-06-27 21:19:04,723 - INFO - IFX.DE: 9 data points
+2025-06-27 21:19:04,723 - WARNING - MBG: No data
+2025-06-27 21:19:04,723 - INFO - MRK: 6 data points
+2025-06-27 21:19:04,723 - INFO - MTX: 6 data points
+2025-06-27 21:19:04,723 - INFO - MUV2.DE: 9 data points
+2025-06-27 21:19:04,723 - INFO - P911.DE: 9 data points
+2025-06-27 21:19:04,723 - INFO - PAH3.DE: 9 data points
+2025-06-27 21:19:04,724 - INFO - QIA.DE: 9 data points
+2025-06-27 21:19:04,724 - INFO - RHM.DE: 9 data points
+2025-06-27 21:19:04,724 - INFO - RWE.DE: 9 data points
+2025-06-27 21:19:04,724 - INFO - SAP: 6 data points
+2025-06-27 21:19:04,724 - INFO - SRT3.DE: 9 data points
+2025-06-27 21:19:04,724 - INFO - SIE.DE: 9 data points
+2025-06-27 21:19:04,724 - INFO - ENR: 6 data points
+2025-06-27 21:19:04,725 - INFO - SHL.DE: 9 data points
+2025-06-27 21:19:04,725 - INFO - SY1.DE: 9 data points
+2025-06-27 21:19:04,725 - INFO - VOW3.DE: 9 data points
+2025-06-27 21:19:04,725 - INFO - VNA.DE: 9 data points
+2025-06-27 21:19:04,725 - INFO - ZAL.DE: 9 data points
+2025-06-27 21:19:04,725 - INFO - AAL: 6 data points
+2025-06-27 21:19:04,725 - INFO - AAPL: 6 data points
+2025-06-27 21:19:04,725 - INFO - ABBV: 6 data points
+2025-06-27 21:19:04,726 - INFO - ABNB: 6 data points
+2025-06-27 21:19:04,726 - INFO - ABT: 6 data points
+2025-06-27 21:19:04,726 - INFO - ACN: 6 data points
+2025-06-27 21:19:04,726 - INFO - ADBE: 6 data points
+2025-06-27 21:19:04,726 - INFO - ALK: 6 data points
+2025-06-27 21:19:04,726 - INFO - AMAT: 6 data points
+2025-06-27 21:19:04,726 - INFO - AMD: 6 data points
+2025-06-27 21:19:06,727 - INFO - === TEST 4.2: Batch 2/3 (50 symbols) ===
+2025-06-27 21:19:06,727 - INFO - Testing batch download for 50 symbols with interval=1h, period=1d
+2025-06-27 21:19:07,761 - INFO - Download completed in 1.02 seconds
+2025-06-27 21:19:07,761 - INFO - Available symbols: 50/50
+2025-06-27 21:19:07,761 - INFO - Missing symbols: 0/50
+2025-06-27 21:19:07,761 - INFO - AMGN: 6 data points
+2025-06-27 21:19:07,761 - INFO - AMZN: 6 data points
+2025-06-27 21:19:07,762 - INFO - AVGO: 6 data points
+2025-06-27 21:19:07,762 - INFO - BAC: 6 data points
+2025-06-27 21:19:07,762 - INFO - BLK: 6 data points
+2025-06-27 21:19:07,762 - INFO - BMY: 6 data points
+2025-06-27 21:19:07,762 - INFO - BRK-B: 6 data points
+2025-06-27 21:19:07,762 - INFO - C: 6 data points
+2025-06-27 21:19:07,762 - INFO - CAT: 6 data points
+2025-06-27 21:19:07,762 - INFO - CCL: 6 data points
+2025-06-27 21:19:07,763 - INFO - CMCSA: 6 data points
+2025-06-27 21:19:07,763 - INFO - COST: 6 data points
+2025-06-27 21:19:07,763 - INFO - CRM: 6 data points
+2025-06-27 21:19:07,763 - INFO - CSCO: 6 data points
+2025-06-27 21:19:07,763 - INFO - CVX: 6 data points
+2025-06-27 21:19:07,763 - INFO - DAL: 6 data points
+2025-06-27 21:19:07,763 - INFO - DE: 6 data points
+2025-06-27 21:19:07,763 - INFO - DIS: 6 data points
+2025-06-27 21:19:07,764 - INFO - F: 6 data points
+2025-06-27 21:19:07,764 - INFO - GILD: 6 data points
+2025-06-27 21:19:07,764 - INFO - GM: 6 data points
+2025-06-27 21:19:07,764 - INFO - GOOG: 6 data points
+2025-06-27 21:19:07,764 - INFO - GOOGL: 6 data points
+2025-06-27 21:19:07,764 - INFO - GS: 6 data points
+2025-06-27 21:19:07,764 - INFO - HAL: 6 data points
+2025-06-27 21:19:07,764 - INFO - HD: 6 data points
+2025-06-27 21:19:07,765 - INFO - HON: 6 data points
+2025-06-27 21:19:07,765 - INFO - IBM: 6 data points
+2025-06-27 21:19:07,765 - INFO - INTC: 6 data points
+2025-06-27 21:19:07,765 - INFO - INTU: 6 data points
+2025-06-27 21:19:07,765 - INFO - ISRG: 6 data points
+2025-06-27 21:19:07,765 - INFO - JNJ: 6 data points
+2025-06-27 21:19:07,765 - INFO - JPM: 6 data points
+2025-06-27 21:19:07,765 - INFO - KO: 6 data points
+2025-06-27 21:19:07,766 - INFO - LLY: 6 data points
+2025-06-27 21:19:07,766 - INFO - LMT: 6 data points
+2025-06-27 21:19:07,766 - INFO - LOW: 6 data points
+2025-06-27 21:19:07,766 - INFO - MA: 6 data points
+2025-06-27 21:19:07,766 - INFO - MCD: 6 data points
+2025-06-27 21:19:07,766 - INFO - MDT: 6 data points
+2025-06-27 21:19:07,766 - INFO - META: 6 data points
+2025-06-27 21:19:07,766 - INFO - MMM: 6 data points
+2025-06-27 21:19:07,767 - INFO - MRK: 6 data points
+2025-06-27 21:19:07,767 - INFO - MRNA: 6 data points
+2025-06-27 21:19:07,767 - INFO - MS: 6 data points
+2025-06-27 21:19:07,767 - INFO - MSFT: 6 data points
+2025-06-27 21:19:07,767 - INFO - NCLH: 6 data points
+2025-06-27 21:19:07,767 - INFO - NKE: 6 data points
+2025-06-27 21:19:07,767 - INFO - NVDA: 6 data points
+2025-06-27 21:19:07,768 - INFO - ORCL: 6 data points
+2025-06-27 21:19:09,768 - INFO - === TEST 4.3: Batch 3/3 (20 symbols) ===
+2025-06-27 21:19:09,768 - INFO - Testing batch download for 20 symbols with interval=1h, period=1d
+2025-06-27 21:19:10,282 - INFO - Download completed in 0.51 seconds
+2025-06-27 21:19:10,282 - INFO - Available symbols: 20/20
+2025-06-27 21:19:10,282 - INFO - Missing symbols: 0/20
+2025-06-27 21:19:10,283 - INFO - PEP: 6 data points
+2025-06-27 21:19:10,283 - INFO - PFE: 6 data points
+2025-06-27 21:19:10,283 - INFO - PG: 6 data points
+2025-06-27 21:19:10,283 - INFO - PM: 6 data points
+2025-06-27 21:19:10,283 - INFO - PYPL: 6 data points
+2025-06-27 21:19:10,283 - INFO - QCOM: 6 data points
+2025-06-27 21:19:10,283 - INFO - RCL: 6 data points
+2025-06-27 21:19:10,284 - INFO - SBUX: 6 data points
+2025-06-27 21:19:10,284 - INFO - TMO: 6 data points
+2025-06-27 21:19:10,284 - INFO - TMUS: 6 data points
+2025-06-27 21:19:10,284 - INFO - TSLA: 6 data points
+2025-06-27 21:19:10,284 - INFO - TXN: 6 data points
+2025-06-27 21:19:10,284 - INFO - UAL: 6 data points
+2025-06-27 21:19:10,284 - INFO - UBER: 6 data points
+2025-06-27 21:19:10,284 - INFO - UNH: 6 data points
+2025-06-27 21:19:10,285 - INFO - UPS: 6 data points
+2025-06-27 21:19:10,285 - INFO - V: 6 data points
+2025-06-27 21:19:10,285 - INFO - VZ: 6 data points
+2025-06-27 21:19:10,285 - INFO - WMT: 6 data points
+2025-06-27 21:19:10,285 - INFO - XOM: 6 data points
+2025-06-27 21:19:12,285 - INFO - Completed all batch download tests

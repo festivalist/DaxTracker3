@@ -5,10 +5,9 @@ from ml_processor import InterruptibleMLProcessor
 
 def main():
     print("Starting ML Processor")
-    
-    # Pfade konfigurieren
-    # Achtung: Pfad zur gemeinsamen Datenbank anpassen!
-    db_path = "\\\\RaspberryPi\\shared\\market_data.db"  # Netzwerkpfad zur Datenbank
+      # Pfade konfigurieren
+    # Lokale Datenbank verwenden
+    db_path = "market_data.db"  # Lokale Datenbank
     checkpoint_dir = "checkpoints"
     
     # Prozessor initialisieren
