@@ -10,8 +10,8 @@
 
 ### 2. Telegram Integration Fixes
 - Successfully configured Telegram bot with provided credentials:
-  - Bot Token: 7356426736:AAHfiYI_Akh6Si0i4bsXWq5JafYJOPvDWN0
-  - Chat ID: 706532120
+  - Bot Token: ****
+  - Chat ID: ****
 - Enhanced notification configuration in `notification_config.json`:
   - Added comprehensive rate limiting structure:
     ```json
